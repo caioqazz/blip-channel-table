@@ -27,7 +27,12 @@ import sendLocationEmail from "./Email/send-location-email.png";
 import textEmail from "./Email/text-email.png";
 import videoEmail from "./Email/video-email.png";
 import weblinkEmail from "./Email/weblink-email.png";
-
+// Messenger
+import carouselMessenger from "./Messenger/carousel-messenger.png";
+import chatStateMessenger from "./Messenger/chat-state-messenger.png";
+import quickReplyMessenger from "./Messenger/quick-reply-messenger.png";
+import textMessenger from "./Messenger/text-messenger.png";
+import weblinkMessenger from "./Messenger/weblink-messenger.png";
 
 
 export const sampleImages = {
@@ -56,6 +61,10 @@ export const sampleImages = {
     sendLocationEmail,
     textEmail ,
     videoEmail,
-    weblinkEmail
-    
+    weblinkEmail,
+    carouselMessenger,
+    chatStateMessenger,
+    quickReplyMessenger,
+    textMessenger,
+    weblinkMessenger
 };
