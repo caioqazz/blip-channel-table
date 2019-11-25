@@ -51,7 +51,14 @@ import textGoogleRcs from "./GoogleRCS/text-google-rcs.png";
 /* Skype */
 import textSkype from "./Skype/text-skype.png";
 /* Telegram */
-
+import audioTelegram from "./Telegram/audio-telegram.png";
+import chatStateTelegram from "./Telegram/chat-state-telegram.png";
+import documentsTelegram from "./Telegram/documents-telegram.png";
+import imageTelegram from "./Telegram/image-telegram.png";
+import menuTelegram from "./Telegram/menu-telegram.png";
+import locationTelegram from "./Telegram/send-location-telegram.png";
+import videoTelegram from "./Telegram/video-telegram.png";
+import weblinkTelegram from "./Telegram/weblink-telegram.png";
 
 export const sampleImages = {
     test,
@@ -98,4 +105,13 @@ export const sampleImages = {
     quickReplyGoogleRcs,
     requestLocationGoogleRcs,
     textGoogleRcs,
+    textSkype,
+    audioTelegram,
+    chatStateTelegram,
+    documentsTelegram,
+    imageTelegram ,
+    menuTelegram ,
+    locationTelegram,
+    videoTelegram,
+    weblinkTelegram,
 };

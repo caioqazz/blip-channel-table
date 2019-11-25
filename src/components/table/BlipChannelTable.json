@@ -1599,7 +1599,7 @@
             "title": "Digitando (Chat State) - Telegram",
             "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
             "img": {
-              "src": "test",
+              "src": "chatStateTelegram",
               "title": "Conteúdo tipo digitando do Telegram",
               "alt": "Conteúdo tipo digitando"
             },
@@ -1621,7 +1621,7 @@
             "title": "Enviar localização - Telegram",
             "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
             "img": {
-              "src": "test",
+              "src": "locationTelegram",
               "title": "Conteúdo tipo localização do Telegram",
               "alt": "Conteúdo tipo localização"
             },
@@ -1637,7 +1637,7 @@
             "title": "Áudio - Telegram",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "test",
+              "src": "audioTelegram",
               "title": "Conteúdo tipo áudio do Telegram",
               "alt": "Conteúdo tipo áudio"
             },
@@ -1650,7 +1650,7 @@
             "title": "Documentos - Telegram",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "test",
+              "src": "documentsTelegram",
               "title": "Conteúdo de documentos do Telegram",
               "alt": "Conteúdo de documentos"
             },
@@ -1658,7 +1658,7 @@
           }
         },
         "gif": {
-          "isSupported": true
+          "isSupported": false
         },
         "image": {
           "isSupported": true,
@@ -1666,7 +1666,7 @@
             "title": "Imagem - Telegram",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "test",
+              "src": "imageTelegram",
               "title": "Conteúdo tipo imagem do Telegram",
               "alt": "Conteúdo tipo imagem"
             },
@@ -1679,7 +1679,7 @@
             "title": "Vídeo - Telegram",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "test",
+              "src": "videoTelegram",
               "title": "Conteúdo tipo vídeo do Telegram",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -1692,7 +1692,7 @@
             "title": "Menu - Telegram",
             "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
             "img": {
-              "src": "test",
+              "src": "menuTelegram",
               "title": "Conteúdo tipo menu do Telegram",
               "alt": "Conteúdo tipo menu"
             },
@@ -1705,7 +1705,7 @@
             "title": "Quick Reply - Telegram",
             "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
             "img": {
-              "src": "quickReplyBlipChat",
+              "src": "test",
               "title": "Conteúdo tipo quick reply do Telegram",
               "alt": "Conteúdo tipo quick reply"
             },
@@ -1736,7 +1736,7 @@
             "title": "Weblink - Telegram",
             "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
             "img": {
-              "src": "weblinkBlipChat",
+              "src": "weblinkTelegram",
               "title": "Conteúdo tipo weblink do Telegram",
               "alt": "Conteúdo tipo weblink"
             },
