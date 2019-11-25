@@ -134,10 +134,10 @@
           }
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
-          "isSupported": false
+          "isSupported": true
         },
         "list": {
           "isSupported": false
@@ -265,10 +265,10 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": true,
@@ -290,7 +290,17 @@
       "svg": "whatsApp",
       "support": {
         "text": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Texto - WhatsApp",
+            "description": "O texto simples é a base de qualquer experiência no Messenger e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa.",
+            "img": {
+              "src": "test",
+              "title": "Tipo de conteúdo texto do WhatsApp",
+              "alt": "Tipo de conteúdo texto"
+            },
+            "docsUrl": "https://docs.blip.ai/#plain-text"
+          }
         },
         "carousel": {
           "isSupported": false
@@ -299,10 +309,10 @@
           "isSupported": false
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
-          "isSupported": false
+          "isSupported": true
         },
         "list": {
           "isSupported": false
@@ -323,46 +333,16 @@
           "isSupported": false
         },
         "image": {
-          "isSupported": false,
-          "modal": {
-            "title": "Test 1",
-            "description": "Desc 1",
-            "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
-            },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
-          }
+          "isSupported": false
         },
         "video": {
           "isSupported": false
         },
         "menu": {
-          "isSupported": false,
-          "modal": {
-            "title": "Test 2",
-            "description": "Desc 2",
-            "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
-            },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
-          }
+          "isSupported": false
         },
         "quickReply": {
-          "isSupported": false,
-          "modal": {
-            "title": "Test 3",
-            "description": "Desc 3",
-            "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
-            },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
-          }
+          "isSupported": false
         },
         "native": {
           "isSupported": false
@@ -377,10 +357,10 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": false
@@ -431,13 +411,13 @@
           }
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
         },
         "list": {
-          "isSupported": false
+          "isSupported": true
         },
         "location": {
           "isSupported": false
@@ -451,7 +431,7 @@
             "title": "Áudio - Messenger",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "audioMessenger",
+              "src": "test",
               "title": "Conteúdo tipo áudio do Messenger",
               "alt": "Conteúdo tipo áudio"
             },
@@ -464,7 +444,7 @@
             "title": "Documentos - Messenger",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "documentMessenger",
+              "src": "test",
               "title": "Conteúdo de documentos do Messenger",
               "alt": "Conteúdo de documentos"
             },
@@ -480,7 +460,7 @@
             "title": "Imagem - Messenger",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "imageMessenger",
+              "src": "test",
               "title": "Conteúdo tipo imagem do Messenger",
               "alt": "Conteúdo tipo imagem"
             },
@@ -493,7 +473,7 @@
             "title": "Vídeo - Messenger",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "videoMessenger",
+              "src": "test",
               "title": "Conteúdo tipo vídeo do Messenger",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -506,7 +486,7 @@
             "title": "Menu - Messenger",
             "description": "O conteúdo menu envia uma mensagem de texto com até três botões anexados.",
             "img": {
-              "src": "menuMessenger",
+              "src": "test",
               "title": "Conteúdo tipo menu do Messenger",
               "alt": "Conteúdo tipo menu"
             },
@@ -527,7 +507,7 @@
           }
         },
         "native": {
-          "isSupported": false
+          "isSupported": true
         },
         "paymentInvoice": {
           "isSupported": false
@@ -539,10 +519,10 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": true,
@@ -566,11 +546,11 @@
         "text": {
           "isSupported": true,
           "modal": {
-            "title": "Texto - Business Chat",
+            "title": "Texto - Apple Business Chat",
             "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
             "img": {
               "src": "textBusinessChat",
-              "title": "Conteúdo tipo texto do Business Chat",
+              "title": "Conteúdo tipo texto do Apple Business Chat",
               "alt": "Conteúdo tipo texto"
             },
             "docsUrl": "https://docs.blip.ai/#plain-text"
@@ -582,18 +562,18 @@
         "chatState": {
           "isSupported": true,
           "modal": {
-            "title": "Digitando (Chat State) - Business Chat",
+            "title": "Digitando (Chat State) - Apple Business Chat",
             "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
             "img": {
               "src": "test",
-              "title": "Conteúdo tipo digitando do Business Chat",
+              "title": "Conteúdo tipo digitando do Apple Business Chat",
               "alt": "Conteúdo tipo digitando"
             },
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -610,11 +590,11 @@
         "audio": {
           "isSupported": true,
           "modal": {
-            "title": "Áudio - Business Chat",
+            "title": "Áudio - Apple Business Chat",
             "description": "Os arquivos podem ser enviados através da URL de um arquivo já existente.",
             "img": {
               "src": "mediaBusinessChat",
-              "title": "Conteúdo tipo áudio do Business Chat",
+              "title": "Conteúdo tipo áudio do Apple Business Chat",
               "alt": "Conteúdo tipo áudio"
             },
             "docsUrl": "https://docs.blip.ai/#audio"
@@ -623,11 +603,11 @@
         "documents": {
           "isSupported": true,
           "modal": {
-            "title": "Documento - Business Chat",
+            "title": "Documento - Apple Business Chat",
             "description": "Os arquivos podem ser enviados de através da URL de um arquivo já existente.",
             "img": {
               "src": "mediaBusinessChat",
-              "title": "Conteúdo de documentos do Business Chat",
+              "title": "Conteúdo de documentos do Apple Business Chat",
               "alt": "Conteúdo de documentos"
             },
             "docsUrl": "https://docs.blip.ai/#document-files"
@@ -639,11 +619,11 @@
         "image": {
           "isSupported": true,
           "modal": {
-            "title": "Imagem - Business Chat",
+            "title": "Imagem - Apple Business Chat",
             "description": "Os arquivos podem ser enviados de através da URL de um arquivo já existente.",
             "img": {
               "src": "mediaBusinessChat",
-              "title": "Conteúdo tipo imagem do Business Chat",
+              "title": "Conteúdo tipo imagem do Apple Business Chat",
               "alt": "Conteúdo tipo imagem"
             },
             "docsUrl": "https://docs.blip.ai/#images"
@@ -652,11 +632,11 @@
         "video": {
           "isSupported": true,
           "modal": {
-            "title": "Vídeo - Business Chat",
+            "title": "Vídeo - Apple Business Chat",
             "description": "Os arquivos podem ser enviados de através da URL de um arquivo já existente.",
             "img": {
               "src": "mediaBusinessChat",
-              "title": "Conteúdo tipo vídeo do Business Chat",
+              "title": "Conteúdo tipo vídeo do Apple Business Chat",
               "alt": "Conteúdo tipo vídeo"
             },
             "docsUrl": "https://docs.blip.ai/#video"
@@ -674,11 +654,11 @@
         "paymentInvoice": {
           "isSupported": true,
           "modal": {
-            "title": "Requisição de pagamentos pelo Apple Pay - Business Chat",
+            "title": "Requisição de pagamentos pelo Apple Pay - Apple Business Chat",
             "description": "Mostra ao usuário uma série de informações a respeito de uma compra e uma requisição para pagamentos através do Apple Pay.",
             "img": {
               "src": "paymentInvoiceBusinessChat",
-              "title": "Conteúdo de requisição de pagamentos do Business Chat",
+              "title": "Conteúdo de requisição de pagamentos do Apple Business Chat",
               "alt": "Conteúdo de requisição de pagamentos"
             },
             "docsUrl": "https://docs.blip.ai/#payment-invoice"
@@ -691,19 +671,19 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": true,
           "modal": {
-            "title": "Weblink - Business Chat",
+            "title": "Weblink - Apple Business Chat",
             "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente no aplicativo Mensagens.",
             "img": {
               "src": "weblinkBusinessChat",
-              "title": "Conteúdo tipo weblink do Business Chat",
+              "title": "Conteúdo tipo weblink do Apple Business Chat",
               "alt": "Conteúdo tipo weblink"
             },
             "docsUrl": "https://docs.blip.ai/#web-link"
@@ -716,31 +696,81 @@
       "svg": "googleAssistant",
       "support": {
         "text": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Texto - Google Assistant",
+            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
+            "img": {
+              "src": "textGoogleAssistant",
+              "title": "Tipo de conteúdo texto do Google Assistant",
+              "alt": "Tipo de conteúdo texto"
+            },
+            "docsUrl": "https://docs.blip.ai/#plain-text"
+          }
         },
         "carousel": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Carrousel - Google Assistant",
+            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
+            "img": {
+              "src": "carosselGoogleAssistant",
+              "title": "Tipo de conteúdo carrousel do Google Assistant",
+              "alt": "Tipo de conteúdo carrousel"
+            },
+            "docsUrl": "https://docs.blip.ai/#carousel"
+          }
         },
         "chatState": {
           "isSupported": false
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
         },
         "list": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Lista de itens - Google Assistant",
+            "description": "Envia uma lista de conteúdos de dois a trinta itens. A lista deve conter cabeçalho e cada item da mesma deve ter título único junto à possibilidade de vinculação de imagens.",
+            "img": {
+              "src": "test",
+              "title": "Tipo de conteúdo lista de itens do Google Assistant",
+              "alt": "Tipo de conteúdo lista de itens"
+            },
+            "docsUrl": "https://docs.blip.ai/#list"
+          }
         },
         "location": {
           "isSupported": false
         },
         "requestLocation": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Pedir localização - Google Assistant",
+            "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo localização do Google Assistant",
+              "alt": "Conteúdo tipo localização"
+            },
+            "docsUrl": "https://docs.blip.ai/#request-location"
+          }
         },
         "audio": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Áudio - Google Assistant",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo áudio do Google Assistant",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
         },
         "documents": {
           "isSupported": false
@@ -751,43 +781,33 @@
         "image": {
           "isSupported": true,
           "modal": {
-            "title": "Test 1",
-            "description": "Desc 1",
+            "title": "Imagem - Google Assistant",
+            "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "src": "imageGoogleAssistant",
+              "title": "Conteúdo tipo imagem do Google Assistant",
+              "alt": "Conteúdo tipo imagem"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#images"
           }
         },
         "video": {
           "isSupported": false
         },
         "menu": {
-          "isSupported": false,
-          "modal": {
-            "title": "Test 2",
-            "description": "Desc 2",
-            "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
-            },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
-          }
+          "isSupported": false          
         },
         "quickReply": {
           "isSupported": true,
           "modal": {
-            "title": "Test 3",
-            "description": "Desc 3",
+            "title": "Quick Reply - Google Assistant",
+            "description": "O tipo de conteúdo quick-reply permite que você apresente um conjunto predefinido de opções ao destinatário da mensagem, que aparecem com destaque logo acima da caixa de inserção de texto. Quando um usuário seleciona uma dessas opções, o conjunto é substituído por uma única mensagem de texto contendo essa mensagem selecionada.",
             "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "src": "quickReplyGoogleAssistant",
+              "title": "Conteúdo tipo quick reply do Google Assistant",
+              "alt": "Conteúdo tipo quick reply"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#quick-replies"
           }
         },
         "native": {
@@ -803,13 +823,23 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Weblink - Google Assistant",
+            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
+            "img": {
+              "src": "weblinkGoogleAssistant",
+              "title": "Conteúdo tipo weblink do Google Assistant",
+              "alt": "Conteúdo tipo weblink"
+            },
+            "docsUrl": "https://docs.blip.ai/#web-link"
+          }
         }
       }
     },
@@ -857,13 +887,13 @@
           }
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
         },
         "list": {
-          "isSupported": false
+          "isSupported": true
         },
         "location": {
           "isSupported": false
@@ -965,10 +995,10 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": true,
@@ -1009,7 +1039,7 @@
           "isSupported": false
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1087,10 +1117,10 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": true,
@@ -1112,16 +1142,36 @@
       "svg": "googleRcs",
       "support": {
         "text": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Texto - Google RCS",
+            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
+            "img": {
+              "src": "textGoogleRcs",
+              "title": "Tipo de conteúdo texto do Google RCS",
+              "alt": "Tipo de conteúdo texto"
+            },
+            "docsUrl": "https://docs.blip.ai/#plain-text"
+          }
         },
         "carousel": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Carrousel - Google RCS",
+            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
+            "img": {
+              "src": "carrosselGoogleRcs",
+              "title": "Tipo de conteúdo carrousel do Google RCS",
+              "alt": "Tipo de conteúdo carrousel"
+            },
+            "docsUrl": "https://docs.blip.ai/#carousel"
+          }
         },
         "chatState": {
           "isSupported": false
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1133,13 +1183,43 @@
           "isSupported": false
         },
         "requestLocation": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Pedir localização - Google RCS",
+            "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
+            "img": {
+              "src": "requestLocationGoogleRcs",
+              "title": "Conteúdo tipo localização do Google RCS",
+              "alt": "Conteúdo tipo localização"
+            },
+            "docsUrl": "https://docs.blip.ai/#request-location"
+          }
         },
         "audio": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Áudio - Google RCS",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "mediaGoogleRcs",
+              "title": "Conteúdo tipo áudio do Google RCS",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
         },
         "documents": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Documentos - Google RCS",
+            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
+            "img": {
+              "src": "mediaGoogleRcs",
+              "title": "Conteúdo de documentos do Google RCS",
+              "alt": "Conteúdo de documentos"
+            },
+            "docsUrl": "https://docs.blip.ai/#document-files"
+          }
         },
         "gif": {
           "isSupported": false
@@ -1147,43 +1227,53 @@
         "image": {
           "isSupported": true,
           "modal": {
-            "title": "Test 1",
-            "description": "Desc 1",
+            "title": "Imagem - Google RCS",
+            "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "src": "mediaGoogleRcs",
+              "title": "Conteúdo tipo imagem do Google RCS",
+              "alt": "Conteúdo tipo imagem"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#images"
           }
         },
         "video": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Vídeo - Google RCS",
+            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
+            "img": {
+              "src": "mediaGoogleRcs",
+              "title": "Conteúdo tipo vídeo do Google RCS",
+              "alt": "Conteúdo tipo vídeo"
+            },
+            "docsUrl": "https://docs.blip.ai/#video"
+          }
         },
         "menu": {
           "isSupported": true,
           "modal": {
-            "title": "Test 2",
-            "description": "Desc 2",
+            "title": "Menu - Google RCS",
+            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
             "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "src": "menuBlipChat",
+              "title": "Conteúdo tipo menu do Google RCS",
+              "alt": "Conteúdo tipo menu"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#menu"
           }
         },
         "quickReply": {
           "isSupported": true,
           "modal": {
-            "title": "Test 3",
-            "description": "Desc 3",
+            "title": "Quick Reply - Google RCS",
+            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
             "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "src": "quickReplyBlipChat",
+              "title": "Conteúdo tipo quick reply do Google RCS",
+              "alt": "Conteúdo tipo quick reply"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#quick-replies"
           }
         },
         "native": {
@@ -1199,10 +1289,10 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": false
@@ -1214,7 +1304,17 @@
       "svg": "infoBip",
       "support": {
         "text": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Texto - Infobip",
+            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
+            "img": {
+              "src": "test",
+              "title": "Tipo de conteúdo texto do Infobip",
+              "alt": "Tipo de conteúdo texto"
+            },
+            "docsUrl": "https://docs.blip.ai/#plain-text"
+          }
         },
         "carousel": {
           "isSupported": false
@@ -1223,7 +1323,7 @@
           "isSupported": false
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1238,10 +1338,30 @@
           "isSupported": false
         },
         "audio": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Áudio - Infobip",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo áudio do Infobip",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
         },
         "documents": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Documentos - Infobip",
+            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo de documentos do Infobip",
+              "alt": "Conteúdo de documentos"
+            },
+            "docsUrl": "https://docs.blip.ai/#document-files"
+          }
         },
         "gif": {
           "isSupported": true
@@ -1249,44 +1369,34 @@
         "image": {
           "isSupported": true,
           "modal": {
-            "title": "Test 1",
-            "description": "Desc 1",
+            "title": "Imagem - Infobip",
+            "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
               "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "title": "Conteúdo tipo imagem do Infobip",
+              "alt": "Conteúdo tipo imagem"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#images"
           }
         },
         "video": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Vídeo - Infobip",
+            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo vídeo do Infobip",
+              "alt": "Conteúdo tipo vídeo"
+            },
+            "docsUrl": "https://docs.blip.ai/#video"
+          }
         },
         "menu": {
-          "isSupported": false,
-          "modal": {
-            "title": "Test 2",
-            "description": "Desc 2",
-            "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
-            },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
-          }
+          "isSupported": false
         },
         "quickReply": {
-          "isSupported": false,
-          "modal": {
-            "title": "Test 3",
-            "description": "Desc 3",
-            "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
-            },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
-          }
+          "isSupported": false
         },
         "native": {
           "isSupported": false
@@ -1301,10 +1411,10 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
           "isSupported": false
@@ -1316,7 +1426,17 @@
       "svg": "skype",
       "support": {
         "text": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Texto - Skype",
+            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
+            "img": {
+              "src": "textSkype",
+              "title": "Tipo de conteúdo texto do Skype",
+              "alt": "Tipo de conteúdo texto"
+            },
+            "docsUrl": "https://docs.blip.ai/#plain-text"
+          }
         },
         "carousel": {
           "isSupported": false
@@ -1325,7 +1445,7 @@
           "isSupported": false
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1334,16 +1454,46 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Pedir localização - Skype",
+            "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo localização do Skype",
+              "alt": "Conteúdo tipo localização"
+            },
+            "docsUrl": "https://docs.blip.ai/#request-location"
+          }
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Áudio - Skype",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo áudio do Skype",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
         },
         "documents": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Documentos - Skype",
+            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo de documentos do Skype",
+              "alt": "Conteúdo de documentos"
+            },
+            "docsUrl": "https://docs.blip.ai/#document-files"
+          }
         },
         "gif": {
           "isSupported": false
@@ -1351,44 +1501,44 @@
         "image": {
           "isSupported": true,
           "modal": {
-            "title": "Test 1",
-            "description": "Desc 1",
+            "title": "Imagem - Skype",
+            "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
               "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "title": "Conteúdo tipo imagem do Skype",
+              "alt": "Conteúdo tipo imagem"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#images"
           }
         },
         "video": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Vídeo - Skype",
+            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo vídeo do Skype",
+              "alt": "Conteúdo tipo vídeo"
+            },
+            "docsUrl": "https://docs.blip.ai/#video"
+          }
         },
         "menu": {
           "isSupported": true,
           "modal": {
-            "title": "Test 2",
-            "description": "Desc 2",
+            "title": "Menu - Skype",
+            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
             "img": {
               "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "title": "Conteúdo tipo menu do Skype",
+              "alt": "Conteúdo tipo menu"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#menu"
           }
         },
         "quickReply": {
-          "isSupported": false,
-          "modal": {
-            "title": "Test 3",
-            "description": "Desc 3",
-            "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
-            },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
-          }
+          "isSupported": false
         },
         "native": {
           "isSupported": false
@@ -1403,13 +1553,23 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Weblink - Skype",
+            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo weblink do Skype",
+              "alt": "Conteúdo tipo weblink"
+            },
+            "docsUrl": "https://docs.blip.ai/#web-link"
+          }
         }
       }
     },
@@ -1418,16 +1578,36 @@
       "svg": "telegram",
       "support": {
         "text": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Texto - Telegram",
+            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
+            "img": {
+              "src": "test",
+              "title": "Tipo de conteúdo texto do Telegram",
+              "alt": "Tipo de conteúdo texto"
+            },
+            "docsUrl": "https://docs.blip.ai/#plain-text"
+          }
         },
         "carousel": {
           "isSupported": false
         },
         "chatState": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Digitando (Chat State) - Telegram",
+            "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo digitando do Telegram",
+              "alt": "Conteúdo tipo digitando"
+            },
+            "docsUrl": "https://docs.blip.ai/#chat-state"
+          }
         },
         "collection": {
-          "isSupported": false
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1436,16 +1616,46 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Enviar localização - Telegram",
+            "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo localização do Telegram",
+              "alt": "Conteúdo tipo localização"
+            },
+            "docsUrl": "https://docs.blip.ai/#send-location"
+          }
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Áudio - Telegram",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo áudio do Telegram",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
         },
         "documents": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Documentos - Telegram",
+            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo de documentos do Telegram",
+              "alt": "Conteúdo de documentos"
+            },
+            "docsUrl": "https://docs.blip.ai/#document-files"
+          }
         },
         "gif": {
           "isSupported": true
@@ -1453,43 +1663,53 @@
         "image": {
           "isSupported": true,
           "modal": {
-            "title": "Test 1",
-            "description": "Desc 1",
+            "title": "Imagem - Telegram",
+            "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
               "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "title": "Conteúdo tipo imagem do Telegram",
+              "alt": "Conteúdo tipo imagem"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#images"
           }
         },
         "video": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Vídeo - Telegram",
+            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo vídeo do Telegram",
+              "alt": "Conteúdo tipo vídeo"
+            },
+            "docsUrl": "https://docs.blip.ai/#video"
+          }
         },
         "menu": {
           "isSupported": true,
           "modal": {
-            "title": "Test 2",
-            "description": "Desc 2",
+            "title": "Menu - Telegram",
+            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
             "img": {
               "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "title": "Conteúdo tipo menu do Telegram",
+              "alt": "Conteúdo tipo menu"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#menu"
           }
         },
         "quickReply": {
           "isSupported": true,
           "modal": {
-            "title": "Test 3",
-            "description": "Desc 3",
+            "title": "Quick Reply - Telegram",
+            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
             "img": {
-              "src": "test",
-              "title": "test title",
-              "alt": "test alt"
+              "src": "quickReplyBlipChat",
+              "title": "Conteúdo tipo quick reply do Telegram",
+              "alt": "Conteúdo tipo quick reply"
             },
-            "docsUrl": "https://docs.blip.ai/#multimedia-menu"
+            "docsUrl": "https://docs.blip.ai/#quick-replies"
           }
         },
         "native": {
@@ -1505,13 +1725,23 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Weblink - Telegram",
+            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
+            "img": {
+              "src": "weblinkBlipChat",
+              "title": "Conteúdo tipo weblink do Telegram",
+              "alt": "Conteúdo tipo weblink"
+            },
+            "docsUrl": "https://docs.blip.ai/#web-link"
+          }
         }
       }
     }   

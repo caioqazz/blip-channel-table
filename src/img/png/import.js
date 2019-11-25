@@ -1,10 +1,10 @@
 import test from "./test.png";
-//AppleBusinessChat
+/* AppleBusinessChat */
 import textBusinessChat from "./BusinessChat/text-business-chat.png";
 import mediaBusinessChat from "./BusinessChat/media-link-business-chat.png";
 import weblinkBusinessChat from "./BusinessChat/weblink-business-chat.png";
 import paymentInvoiceBusinessChat from "./BusinessChat/payment-invoice-business-chat.png";
-//BlipChat
+/* BlipChat  */
 import audioBlipChat from "./BlipChat/audio-blip-chat.png";
 import carouselBlipChat from "./BlipChat/carousel-blip-chat.png";
 import chatStateBlipChat from "./BlipChat/chat-state-blip-chat.png";
@@ -17,7 +17,7 @@ import sendLocationBlipChat from "./BlipChat/send-location-blip-chat.png";
 import textBlipChat from "./BlipChat/text-blip-chat.png";
 import videoBlipChat from "./BlipChat/video-blip-chat.png";
 import weblinkBlipChat from "./BlipChat/weblink-blip-chat.png";
-//Email
+/* Email */
 import audioEmail from "./Email/audio-email.png";
 import documentEmail from "./Email/document-email.png";
 //import gifEmail from "./Email/gif-email.gif";
@@ -27,12 +27,30 @@ import sendLocationEmail from "./Email/send-location-email.png";
 import textEmail from "./Email/text-email.png";
 import videoEmail from "./Email/video-email.png";
 import weblinkEmail from "./Email/weblink-email.png";
-// Messenger
+/* Messenger */ 
 import carouselMessenger from "./Messenger/carousel-messenger.png";
 import chatStateMessenger from "./Messenger/chat-state-messenger.png";
 import quickReplyMessenger from "./Messenger/quick-reply-messenger.png";
 import textMessenger from "./Messenger/text-messenger.png";
 import weblinkMessenger from "./Messenger/weblink-messenger.png";
+/* Google Assistant */
+import audioGoogleAssistant from "./GoogleAssistant/audio-google-assistant.png";
+import carosselGoogleAssistant from "./GoogleAssistant/carossel-google-assistant.png";
+import imageGoogleAssistant from "./GoogleAssistant/image-google-assistant.png";
+import listGoogleAssistant from "./GoogleAssistant/list-google-assistant.png";
+import quickReplyGoogleAssistant from "./GoogleAssistant/quick-reply-google-assistant.png";
+import textGoogleAssistant from "./GoogleAssistant/text-google-assistant.png";
+import weblinkGoogleAssistant from "./GoogleAssistant/weblink-google-assistant.png";
+/* Google RCS */
+import carrosselGoogleRcs from "./GoogleRCS/carrossel-google-rcs.png";
+import mediaGoogleRcs from "./GoogleRCS/media-google-rcs.png";
+import menuGoogleRcs from "./GoogleRCS/menu-google-rcs.png";
+import quickReplyGoogleRcs from "./GoogleRCS/quick-reply-google-rcs.png";
+import requestLocationGoogleRcs from "./GoogleRCS/request-location-google-rcs.png";
+import textGoogleRcs from "./GoogleRCS/text-google-rcs.png";
+/* Skype */
+import textSkype from "./Skype/text-skype.png";
+/* Telegram */
 
 
 export const sampleImages = {
@@ -66,5 +84,18 @@ export const sampleImages = {
     chatStateMessenger,
     quickReplyMessenger,
     textMessenger,
-    weblinkMessenger
+    weblinkMessenger,
+    audioGoogleAssistant,
+    carosselGoogleAssistant,
+    imageGoogleAssistant,
+    listGoogleAssistant,
+    quickReplyGoogleAssistant,
+    textGoogleAssistant,
+    weblinkGoogleAssistant,
+    carrosselGoogleRcs,
+    mediaGoogleRcs,
+    menuGoogleRcs,
+    quickReplyGoogleRcs,
+    requestLocationGoogleRcs,
+    textGoogleRcs,
 };
