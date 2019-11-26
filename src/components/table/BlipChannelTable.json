@@ -72,10 +72,6 @@
       "name": "Payment Receipt",
       "description": "Allows sending of a payment receipt to a customer"
     },
-    "redirect": {
-      "name": "Redirect",
-      "description": "Allows the redirection of a particular chatbot conversation to a new address"
-    },
     "resource": {
       "name": "Resource",
       "description": "Allows sending of a message where the content is a resource stored in the server"
@@ -261,9 +257,6 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "redirect": {
-          "isSupported": false
-        },
         "resource": {
           "isSupported": true
         },
@@ -351,9 +344,6 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
           "isSupported": false
         },
         "resource": {
@@ -513,10 +503,17 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Recibo - Messenger",
+            "description": "O tipo de conteúdo de recibo permite que você envie uma confirmação de pedido por meio de uma mensagem estruturada. Este conteúdo pode conter o resumo de uma compra, detalhes do pagamento e informações de envio.",
+            "img": {
+              "src": "paymentReceiptMessenger",
+              "title": "Conteúdo tipo quick reply do Messenger",
+              "alt": "Conteúdo tipo quick reply"
+            },
+            "docsUrl": "https://docs.blip.ai/#payment-receipt"
+          }
         },
         "resource": {
           "isSupported": true
@@ -667,9 +664,6 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "redirect": {
-          "isSupported": false
-        },
         "resource": {
           "isSupported": true
         },
@@ -736,7 +730,7 @@
             "title": "Lista de itens - Google Assistant",
             "description": "Envia uma lista de conteúdos de dois a trinta itens. A lista deve conter cabeçalho e cada item da mesma deve ter título único junto à possibilidade de vinculação de imagens.",
             "img": {
-              "src": "test",
+              "src": "listGoogleAssistant",
               "title": "Tipo de conteúdo lista de itens do Google Assistant",
               "alt": "Tipo de conteúdo lista de itens"
             },
@@ -765,7 +759,7 @@
             "title": "Áudio - Google Assistant",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "test",
+              "src": "audioGoogleAssistant",
               "title": "Conteúdo tipo áudio do Google Assistant",
               "alt": "Conteúdo tipo áudio"
             },
@@ -817,9 +811,6 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
           "isSupported": false
         },
         "resource": {
@@ -989,10 +980,17 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Recibo - Workplace",
+            "description": "O tipo de conteúdo de recibo permite que você envie uma confirmação de pedido por meio de uma mensagem estruturada. Este conteúdo pode conter o resumo de uma compra, detalhes do pagamento e informações de envio.",
+            "img": {
+              "src": "paymentReceiptMessenger",
+              "title": "Conteúdo tipo quick reply do Workplace",
+              "alt": "Conteúdo tipo quick reply"
+            },
+            "docsUrl": "https://docs.blip.ai/#payment-receipt"
+          }
         },
         "resource": {
           "isSupported": true
@@ -1064,13 +1062,43 @@
           "isSupported": false
         },
         "audio": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Áudio - Email",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "audioEmail",
+              "title": "Conteúdo tipo áudio do Email",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
         },
         "documents": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Documentos - Email",
+            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
+            "img": {
+              "src": "documentEmail",
+              "title": "Conteúdo de documentos do Email",
+              "alt": "Conteúdo de documentos"
+            },
+            "docsUrl": "https://docs.blip.ai/#document-files"
+          }
         },
         "gif": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "GIF - Email",
+            "description": "Envia uma mensagem de animação gif para o usuário.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo imagem do Email",
+              "alt": "Conteúdo tipo imagem"
+            },
+            "docsUrl": "https://docs.blip.ai/#images"
+          }
         },
         "image": {
           "isSupported": true,
@@ -1086,7 +1114,17 @@
           }
         },
         "video": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Vídeo - Email",
+            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
+            "img": {
+              "src": "videoEmail",
+              "title": "Conteúdo tipo vídeo do Email",
+              "alt": "Conteúdo tipo vídeo"
+            },
+            "docsUrl": "https://docs.blip.ai/#video"
+          }
         },
         "menu": {
           "isSupported": true,
@@ -1111,9 +1149,6 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
           "isSupported": false
         },
         "resource": {
@@ -1285,9 +1320,6 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "redirect": {
-          "isSupported": false
-        },
         "resource": {
           "isSupported": true
         },
@@ -1364,7 +1396,17 @@
           }
         },
         "gif": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "GIF - Infobip",
+            "description": "Envia uma mensagem de animação gif para o usuário.",
+            "img": {
+              "src": "test",
+              "title": "Conteúdo tipo imagem do Infobip",
+              "alt": "Conteúdo tipo imagem"
+            },
+            "docsUrl": "https://docs.blip.ai/#images"
+          }
         },
         "image": {
           "isSupported": true,
@@ -1405,9 +1447,6 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
           "isSupported": false
         },
         "resource": {
@@ -1547,9 +1586,6 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
           "isSupported": false
         },
         "resource": {
@@ -1719,9 +1755,6 @@
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": false
-        },
-        "redirect": {
           "isSupported": false
         },
         "resource": {

@@ -33,6 +33,7 @@ import chatStateMessenger from "./Messenger/chat-state-messenger.png";
 import quickReplyMessenger from "./Messenger/quick-reply-messenger.png";
 import textMessenger from "./Messenger/text-messenger.png";
 import weblinkMessenger from "./Messenger/weblink-messenger.png";
+import paymentReceiptMessenger from "./Messenger/payment-receipt-messenger.png";
 /* Google Assistant */
 import audioGoogleAssistant from "./GoogleAssistant/audio-google-assistant.png";
 import carosselGoogleAssistant from "./GoogleAssistant/carossel-google-assistant.png";
@@ -92,6 +93,7 @@ export const sampleImages = {
     quickReplyMessenger,
     textMessenger,
     weblinkMessenger,
+    paymentReceiptMessenger,
     audioGoogleAssistant,
     carosselGoogleAssistant,
     imageGoogleAssistant,
