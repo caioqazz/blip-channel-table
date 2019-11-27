@@ -4,6 +4,7 @@ import textBusinessChat from "./BusinessChat/text-business-chat.png";
 import mediaBusinessChat from "./BusinessChat/media-link-business-chat.png";
 import weblinkBusinessChat from "./BusinessChat/weblink-business-chat.png";
 import paymentInvoiceBusinessChat from "./BusinessChat/payment-invoice-business-chat.png";
+import stateChatBusinessChat from "./BusinessChat/state-chat-business-chat.png";
 /* BlipChat  */
 import audioBlipChat from "./BlipChat/audio-blip-chat.png";
 import carouselBlipChat from "./BlipChat/carousel-blip-chat.png";
@@ -60,6 +61,8 @@ import menuTelegram from "./Telegram/menu-telegram.png";
 import locationTelegram from "./Telegram/send-location-telegram.png";
 import videoTelegram from "./Telegram/video-telegram.png";
 import weblinkTelegram from "./Telegram/weblink-telegram.png";
+import textTelegram from "./Telegram/text-telegram.png";
+
 
 export const sampleImages = {
     test,
@@ -67,6 +70,7 @@ export const sampleImages = {
     mediaBusinessChat,
     weblinkBusinessChat,
     paymentInvoiceBusinessChat,
+    stateChatBusinessChat,
     audioBlipChat,
     carouselBlipChat,
     chatStateBlipChat,
@@ -116,4 +120,5 @@ export const sampleImages = {
     locationTelegram,
     videoTelegram,
     weblinkTelegram,
+    textTelegram
 };

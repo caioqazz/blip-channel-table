@@ -129,11 +129,31 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - BLiP Chat",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do BLiP Chat",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Input - BLiP Chat",
+            "description": "Envia solicitações de informações estruturadas para o usuário, onde é possível definir regras de validação. Isso é útil para criar formulários de perguntas e obter informações específicas do usuário - como nome ou número de telefone - ou informações digitadas - como uma imagem ou local.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Input do BLiP Chat",
+              "alt": "Conteúdo tipo Input"
+            },
+            "docsUrl": "https://docs.blip.ai/#input"
+          }
         },
         "list": {
           "isSupported": false
@@ -257,11 +277,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - BLiP Chat",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do BLiP Chat",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - BLiP Chat",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do BLiP Chat",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
@@ -288,7 +328,7 @@
             "title": "Texto - WhatsApp",
             "description": "O texto simples é a base de qualquer experiência no Messenger e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Tipo de conteúdo texto do WhatsApp",
               "alt": "Tipo de conteúdo texto"
             },
@@ -301,11 +341,31 @@
         "chatState": {
           "isSupported": false
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - WhatsApp",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do WhatsApp",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Input - WhatsApp",
+            "description": "Envia solicitações de informações estruturadas para o usuário, onde é possível definir regras de validação. Isso é útil para criar formulários de perguntas e obter informações específicas do usuário - como nome ou número de telefone - ou informações digitadas - como uma imagem ou local.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Input do WhatsApp",
+              "alt": "Conteúdo tipo Input"
+            },
+            "docsUrl": "https://docs.blip.ai/#input"
+          }
         },
         "list": {
           "isSupported": false
@@ -346,11 +406,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - WhatsApp",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do WhatsApp",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - WhatsApp",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do WhatsApp",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": false
@@ -400,8 +480,18 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Messenger",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Messenger",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -421,7 +511,7 @@
             "title": "Áudio - Messenger",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo áudio do Messenger",
               "alt": "Conteúdo tipo áudio"
             },
@@ -434,7 +524,7 @@
             "title": "Documentos - Messenger",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo de documentos do Messenger",
               "alt": "Conteúdo de documentos"
             },
@@ -450,7 +540,7 @@
             "title": "Imagem - Messenger",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo imagem do Messenger",
               "alt": "Conteúdo tipo imagem"
             },
@@ -463,7 +553,7 @@
             "title": "Vídeo - Messenger",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo vídeo do Messenger",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -476,7 +566,7 @@
             "title": "Menu - Messenger",
             "description": "O conteúdo menu envia uma mensagem de texto com até três botões anexados.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo menu do Messenger",
               "alt": "Conteúdo tipo menu"
             },
@@ -515,11 +605,31 @@
             "docsUrl": "https://docs.blip.ai/#payment-receipt"
           }
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Messenger",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Messenger",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Messenger",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Messenger",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
@@ -562,15 +672,25 @@
             "title": "Digitando (Chat State) - Apple Business Chat",
             "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
             "img": {
-              "src": "test",
+              "src": "stateChatBusinessChat",
               "title": "Conteúdo tipo digitando do Apple Business Chat",
               "alt": "Conteúdo tipo digitando"
             },
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Apple Business Chat",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Apple Business Chat",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -664,11 +784,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Apple Business Chat",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Apple Business Chat",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Apple Business Chat",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Apple Business Chat",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
@@ -718,8 +858,18 @@
         "chatState": {
           "isSupported": false
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Google Assistant",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Google Assistant",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -746,7 +896,7 @@
             "title": "Pedir localização - Google Assistant",
             "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo localização do Google Assistant",
               "alt": "Conteúdo tipo localização"
             },
@@ -813,11 +963,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Google Assistant",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Google Assistant",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Google Assistant",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Google Assistant",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
@@ -877,8 +1047,18 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Workplace",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Workplace",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -992,11 +1172,31 @@
             "docsUrl": "https://docs.blip.ai/#payment-receipt"
           }
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Workplace",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Workplace",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Workplace",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Workplace",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
@@ -1036,8 +1236,18 @@
         "chatState": {
           "isSupported": false
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Email",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Email",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -1151,11 +1361,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Email",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Email",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Email",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Email",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
@@ -1205,8 +1435,18 @@
         "chatState": {
           "isSupported": false
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Google RCS",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do BLiP Chat",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -1320,11 +1560,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Google RCS",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Google RCS",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Google RCS",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Google RCS",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": false
@@ -1341,7 +1601,7 @@
             "title": "Texto - Infobip",
             "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Tipo de conteúdo texto do Infobip",
               "alt": "Tipo de conteúdo texto"
             },
@@ -1354,8 +1614,18 @@
         "chatState": {
           "isSupported": false
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Google RCS",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do BLiP Chat",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -1375,7 +1645,7 @@
             "title": "Áudio - Infobip",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo áudio do Infobip",
               "alt": "Conteúdo tipo áudio"
             },
@@ -1388,7 +1658,7 @@
             "title": "Documentos - Infobip",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo de documentos do Infobip",
               "alt": "Conteúdo de documentos"
             },
@@ -1401,7 +1671,7 @@
             "title": "GIF - Infobip",
             "description": "Envia uma mensagem de animação gif para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo imagem do Infobip",
               "alt": "Conteúdo tipo imagem"
             },
@@ -1414,7 +1684,7 @@
             "title": "Imagem - Infobip",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo imagem do Infobip",
               "alt": "Conteúdo tipo imagem"
             },
@@ -1427,7 +1697,7 @@
             "title": "Vídeo - Infobip",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo vídeo do Infobip",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -1449,11 +1719,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Infobip",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Infobip",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Infobip",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Infobip",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": false
@@ -1483,8 +1773,18 @@
         "chatState": {
           "isSupported": false
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Google RCS",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Google RCS",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -1498,7 +1798,7 @@
             "title": "Pedir localização - Skype",
             "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo localização do Skype",
               "alt": "Conteúdo tipo localização"
             },
@@ -1514,7 +1814,7 @@
             "title": "Áudio - Skype",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo áudio do Skype",
               "alt": "Conteúdo tipo áudio"
             },
@@ -1527,7 +1827,7 @@
             "title": "Documentos - Skype",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo de documentos do Skype",
               "alt": "Conteúdo de documentos"
             },
@@ -1543,7 +1843,7 @@
             "title": "Imagem - Skype",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo imagem do Skype",
               "alt": "Conteúdo tipo imagem"
             },
@@ -1556,7 +1856,7 @@
             "title": "Vídeo - Skype",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo vídeo do Skype",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -1569,7 +1869,7 @@
             "title": "Menu - Skype",
             "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo menu do Skype",
               "alt": "Conteúdo tipo menu"
             },
@@ -1588,11 +1888,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Skype",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Skype",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Skype",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Skype",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
@@ -1600,7 +1920,7 @@
             "title": "Weblink - Skype",
             "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo weblink do Skype",
               "alt": "Conteúdo tipo weblink"
             },
@@ -1619,7 +1939,7 @@
             "title": "Texto - Telegram",
             "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
             "img": {
-              "src": "test",
+              "src": "textTelegram",
               "title": "Tipo de conteúdo texto do Telegram",
               "alt": "Tipo de conteúdo texto"
             },
@@ -1642,8 +1962,18 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-        "collection": {
-          "isSupported": true
+       "collection": {
+          "isSupported": true,
+          "modal": {
+            "title": "Collection - Telegram",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Telegram",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
         },
         "input": {
           "isSupported": false
@@ -1741,7 +2071,7 @@
             "title": "Quick Reply - Telegram",
             "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
             "img": {
-              "src": "test",
+              "src": "",
               "title": "Conteúdo tipo quick reply do Telegram",
               "alt": "Conteúdo tipo quick reply"
             },
@@ -1757,11 +2087,31 @@
         "paymentReceipt": {
           "isSupported": false
         },
-        "resource": {
-          "isSupported": true
+      "resource": {
+          "isSupported": true,
+          "modal": {
+            "title": "Resource - Telegram",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Telegram",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
         },
-        "sensitive": {
-          "isSupported": true
+      "sensitive": {
+          "isSupported": true,
+          "modal": {
+            "title": "Sensitive - Telegram",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Telegram",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
         },
         "weblink": {
           "isSupported": true,
