@@ -62,7 +62,7 @@ import locationTelegram from "./Telegram/send-location-telegram.png";
 import videoTelegram from "./Telegram/video-telegram.png";
 import weblinkTelegram from "./Telegram/weblink-telegram.png";
 import textTelegram from "./Telegram/text-telegram.png";
-
+import quickReplyTelegram from "./Telegram/quick-reply-telegram.png";
 
 export const sampleImages = {
     test,
@@ -120,5 +120,6 @@ export const sampleImages = {
     locationTelegram,
     videoTelegram,
     weblinkTelegram,
-    textTelegram
+    textTelegram,
+    quickReplyTelegram,
 };

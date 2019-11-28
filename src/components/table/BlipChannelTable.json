@@ -2071,7 +2071,7 @@
             "title": "Quick Reply - Telegram",
             "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
             "img": {
-              "src": "",
+              "src": "quickReplyTelegram",
               "title": "Conteúdo tipo quick reply do Telegram",
               "alt": "Conteúdo tipo quick reply"
             },
