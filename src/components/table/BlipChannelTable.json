@@ -1793,7 +1793,7 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": true,
+          "isSupported": false,
           "modal": {
             "title": "Pedir localização - Skype",
             "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
@@ -1809,7 +1809,7 @@
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
+          "isSupported": false,
           "modal": {
             "title": "Áudio - Skype",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
@@ -1822,7 +1822,7 @@
           }
         },
         "documents": {
-          "isSupported": true,
+          "isSupported": false,
           "modal": {
             "title": "Documentos - Skype",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
@@ -1838,7 +1838,7 @@
           "isSupported": false
         },
         "image": {
-          "isSupported": true,
+          "isSupported": false,
           "modal": {
             "title": "Imagem - Skype",
             "description": "Envia uma mensagem de imagem para o usuário.",
@@ -1851,7 +1851,7 @@
           }
         },
         "video": {
-          "isSupported": true,
+          "isSupported": false,
           "modal": {
             "title": "Vídeo - Skype",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
@@ -1864,7 +1864,7 @@
           }
         },
         "menu": {
-          "isSupported": true,
+          "isSupported": false,
           "modal": {
             "title": "Menu - Skype",
             "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
