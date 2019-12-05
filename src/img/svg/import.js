@@ -9,6 +9,8 @@ import skype from "./skype-logo.svg";
 import telegram from "./telegram-logo.svg";
 import whatsApp from "./whatsapp.svg";
 import workplace from "./workplace-logo.svg";
+import cancel from './cancel.svg'
+import check from './check.svg'
 
 
 import image from "./image.svg";
@@ -26,12 +28,15 @@ export const channelSvgs = {
     skype,
     telegram,
     whatsApp,
-    workplace
+    workplace,
+   
     
 };
 
 export const contentTypeSvgs = {
     image,
     menu,
-    quickReply
+    quickReply,
+    cancel,
+    check
 }
