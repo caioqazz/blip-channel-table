@@ -1,0 +1,14 @@
+<label role="button" class="bp-btn bp-btn--text-only modal-trigger" for="example-modal-controller" on:click="fire('look', { channel, content })">
+    <SupportedSymbol/>
+</label>
+
+<script>
+    // import LookSymbol from "../symbols/LookSymbol.html";
+    import SupportedSymbol from "../../ui/symbols/SupportedSymbol.html";
+    export default {
+        components: {
+            // LookSymbol
+            SupportedSymbol
+        }
+    }
+</script>
