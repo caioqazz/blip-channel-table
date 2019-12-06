@@ -39,11 +39,15 @@ $modal-z-index: 100;
         top: 50%;
         left: 50%;
 
+        border: 1px solid #DEE8EC;
+        box-sizing: border-box;
+        box-shadow: 2px 0px 10px rgba(96, 123, 153, 0.3);
+        border-radius: 8px;
+
         z-index: #{$modal-z-index + 3};
 
         min-width: 22.8*$m;
         width: 45%;
-
         min-height: 18*$m;
         background-color: white;
 
@@ -92,6 +96,7 @@ $modal-z-index: 100;
             display: block;
             margin: 0 auto;
             margin-bottom: 1*$m;
+            max-width: 100%;
         }
     }
 
