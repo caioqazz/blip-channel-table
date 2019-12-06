@@ -21,7 +21,7 @@ import weblinkBlipChat from "./BlipChat/weblink-blip-chat.png";
 /* Email */
 import audioEmail from "./Email/audio-email.png";
 import documentEmail from "./Email/document-email.png";
-//import gifEmail from "./Email/gif-email.gif";
+import gifEmail from "./Email/gif-email.png";
 import imageEmail from "./Email/image-email.png";
 import menuEmail from "./Email/menu-email.png";
 import sendLocationEmail from "./Email/send-location-email.png";
@@ -35,6 +35,11 @@ import quickReplyMessenger from "./Messenger/quick-reply-messenger.png";
 import textMessenger from "./Messenger/text-messenger.png";
 import weblinkMessenger from "./Messenger/weblink-messenger.png";
 import paymentReceiptMessenger from "./Messenger/payment-receipt-messenger.png";
+import menuMessenger from "./Messenger/menu-messenger.png";
+import audioMessenger from "./Messenger/audio-messenger.png";
+import documentsMessenger from "./Messenger/documents-messenger.png";
+import imageMessenger from "./Messenger/image-messenger.png";
+import videoMessenger from "./Messenger/video-messenger.png";
 /* Google Assistant */
 import audioGoogleAssistant from "./GoogleAssistant/audio-google-assistant.png";
 import carosselGoogleAssistant from "./GoogleAssistant/carossel-google-assistant.png";
@@ -43,6 +48,7 @@ import listGoogleAssistant from "./GoogleAssistant/list-google-assistant.png";
 import quickReplyGoogleAssistant from "./GoogleAssistant/quick-reply-google-assistant.png";
 import textGoogleAssistant from "./GoogleAssistant/text-google-assistant.png";
 import weblinkGoogleAssistant from "./GoogleAssistant/weblink-google-assistant.png";
+import requestLocationGoogleAssistant from "./GoogleAssistant/requestLocation-google-assistant.png";
 /* Google RCS */
 import carrosselGoogleRcs from "./GoogleRCS/carrossel-google-rcs.png";
 import mediaGoogleRcs from "./GoogleRCS/media-google-rcs.png";
@@ -63,6 +69,16 @@ import videoTelegram from "./Telegram/video-telegram.png";
 import weblinkTelegram from "./Telegram/weblink-telegram.png";
 import textTelegram from "./Telegram/text-telegram.png";
 import quickReplyTelegram from "./Telegram/quick-reply-telegram.png";
+/* Telegram */
+import textInfobip from "./Infobip/infobip.png";
+/* Whatsapp */
+import audioWhatsapp from "./Whatsapp/audio.png";
+import documentsWhatsapp from "./Whatsapp/documents.png";
+import locationWhatsapp from "./Whatsapp/location.png";
+import textWhatsapp from "./Whatsapp/text.png";
+import videoWhatsapp from "./Whatsapp/video.png";
+import imageWhatsapp from "./Whatsapp/imagem.png";
+import weblinkWhatsapp from "./Whatsapp/weblink.png";
 
 export const sampleImages = {
     test,
@@ -85,7 +101,7 @@ export const sampleImages = {
     weblinkBlipChat,
     audioEmail,
     documentEmail,
-   // gifEmail,
+    gifEmail,
     imageEmail,
     menuEmail ,
     sendLocationEmail,
@@ -98,6 +114,11 @@ export const sampleImages = {
     textMessenger,
     weblinkMessenger,
     paymentReceiptMessenger,
+    menuMessenger,
+    audioMessenger,
+    documentsMessenger,
+    imageMessenger,
+    videoMessenger,
     audioGoogleAssistant,
     carosselGoogleAssistant,
     imageGoogleAssistant,
@@ -105,6 +126,7 @@ export const sampleImages = {
     quickReplyGoogleAssistant,
     textGoogleAssistant,
     weblinkGoogleAssistant,
+    requestLocationGoogleAssistant,
     carrosselGoogleRcs,
     mediaGoogleRcs,
     menuGoogleRcs,
@@ -122,4 +144,13 @@ export const sampleImages = {
     weblinkTelegram,
     textTelegram,
     quickReplyTelegram,
+    textInfobip,
+    audioWhatsapp,
+    documentsWhatsapp,
+    locationWhatsapp,
+    textWhatsapp,
+    videoWhatsapp,
+    weblinkWhatsapp,
+    imageWhatsapp
+
 };

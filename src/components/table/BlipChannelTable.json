@@ -1,11 +1,11 @@
 {
   "contentTypes": {
     "text": {
-      "name": "Text",
+      "name": "Texto",
       "description": "Allows sending plain text"
     },
     "carousel": {
-      "name": "Carousel",
+      "name": "Carrossel",
       "description": "Allows sending multimedia menu"
     },
     "chatState": {
@@ -21,23 +21,23 @@
       "description": "Allows sending of structured information requests to the user, where it is possible to define validations rules"
     },
     "list": {
-      "name": "List",
+      "name": "Lista",
       "description": "Allows sending of a list of documents on a single message"
     },
     "location": {
-      "name": "Location",
+      "name": "Envio de localização",
       "description": "Allows sending and receiving of geographic information"
     },
     "requestLocation": {
-      "name": "Request Location",
+      "name": "Pedir localização",
       "description": "Allows ask to the user to send their geographic information"
     },
     "audio": {
-      "name": "Audio",
+      "name": "Áudio",
       "description": "Allows sending audio files"
     },
     "documents": {
-      "name": "Documents",
+      "name": "Documentos",
       "description": "Allows sending document files"
     },
     "gif": {
@@ -45,11 +45,11 @@
       "description": "Allows sending gif files"
     },
     "image": {
-      "name": "Image",
+      "name": "Imagem",
       "description": "Allows sending image files"
     },
     "video": {
-      "name": "Video",
+      "name": "Vídeo",
       "description": "Allows sending video files"
     },
     "menu": {
@@ -65,11 +65,11 @@
       "description": "Allows sending of a native content of some channel using JSON format"
     },
     "paymentInvoice": {
-      "name": "Payment Invoice",
+      "name": "Requisição de pagamentos",
       "description": "Allows sending of a payment request to a payment channel"
     },
     "paymentReceipt": {
-      "name": "Payment Receipt",
+      "name": "Recibo",
       "description": "Allows sending of a payment receipt to a customer"
     },
     "resource": {
@@ -106,12 +106,12 @@
         "carousel": {
           "isSupported": true,
           "modal": {
-            "title": "Carrousel - BLiP Chat",
+            "title": "Carrossel - BLiP Chat",
             "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título. ",
             "img": {
               "src": "carouselBlipChat",
-              "title": "Tipo de conteúdo carrousel do BLiP Chat",
-              "alt": "Tipo de conteúdo carrousel"
+              "title": "Tipo de conteúdo Carrossel do BLiP Chat",
+              "alt": "Tipo de conteúdo Carrossel"
             },
             "docsUrl": "https://docs.blip.ai/#carousel"
           }
@@ -129,7 +129,7 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - BLiP Chat",
@@ -170,7 +170,6 @@
             },
             "docsUrl": "https://docs.blip.ai/#send-location"
           }
-
         },
         "requestLocation": {
           "isSupported": true,
@@ -184,7 +183,6 @@
             },
             "docsUrl": "https://docs.blip.ai/#request-location"
           }
-
         },
         "audio": {
           "isSupported": true,
@@ -227,7 +225,6 @@
             },
             "docsUrl": "https://docs.blip.ai/#images"
           }
-        
         },
         "video": {
           "isSupported": true,
@@ -277,7 +274,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - BLiP Chat",
@@ -290,7 +287,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - BLiP Chat",
@@ -328,7 +325,7 @@
             "title": "Texto - WhatsApp",
             "description": "O texto simples é a base de qualquer experiência no Messenger e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa.",
             "img": {
-              "src": "",
+              "src": "textWhatsapp",
               "title": "Tipo de conteúdo texto do WhatsApp",
               "alt": "Tipo de conteúdo texto"
             },
@@ -341,7 +338,7 @@
         "chatState": {
           "isSupported": false
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - WhatsApp",
@@ -371,25 +368,75 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Enviar localização - WhatsApp",
+            "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
+            "img": {
+              "src": "locationWhatsapp",
+              "title": "Conteúdo tipo localização do WhatsApp",
+              "alt": "Conteúdo tipo localização"
+            },
+            "docsUrl": "https://docs.blip.ai/#send-location"
+          }
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Áudio - WhatsApp",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "audioWhatsapp",
+              "title": "Conteúdo tipo áudio do WhatsApp",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
         },
         "documents": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Documentos - WhatsApp",
+            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
+            "img": {
+              "src": "documentsWhatsapp",
+              "title": "Conteúdo de documentos do WhatsApp",
+              "alt": "Conteúdo de documentos"
+            },
+            "docsUrl": "https://docs.blip.ai/#document-files"
+          }
         },
         "gif": {
           "isSupported": false
         },
         "image": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Imagem - WhatsApp",
+            "description": "Envia uma mensagem de imagem para o usuário.",
+            "img": {
+              "src": "imageWhatsapp",
+              "title": "Conteúdo tipo imagem do WhatsApp",
+              "alt": "Conteúdo tipo imagem"
+            },
+            "docsUrl": "https://docs.blip.ai/#images"
+          }
         },
         "video": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Vídeo - WhatsApp",
+            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
+            "img": {
+              "src": "videoWhatsapp",
+              "title": "Conteúdo tipo vídeo do WhatsApp",
+              "alt": "Conteúdo tipo vídeo"
+            },
+            "docsUrl": "https://docs.blip.ai/#video"
+          }
         },
         "menu": {
           "isSupported": false
@@ -406,7 +453,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - WhatsApp",
@@ -419,7 +466,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - WhatsApp",
@@ -433,7 +480,17 @@
           }
         },
         "weblink": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Weblink - WhatsApp",
+            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
+            "img": {
+              "src": "weblinkWhatsapp",
+              "title": "Conteúdo tipo weblink do WhatsApp",
+              "alt": "Conteúdo tipo weblink"
+            },
+            "docsUrl": "https://docs.blip.ai/#web-link"
+          }
         }
       }
     },
@@ -457,12 +514,12 @@
         "carousel": {
           "isSupported": true,
           "modal": {
-            "title": "Carrousel - Messenger",
+            "title": "Carrossel - Messenger",
             "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
             "img": {
               "src": "carouselMessenger",
-              "title": "Tipo de conteúdo carrousel do Messenger",
-              "alt": "Tipo de conteúdo carrousel"
+              "title": "Tipo de conteúdo Carrossel do Messenger",
+              "alt": "Tipo de conteúdo Carrossel"
             },
             "docsUrl": "https://docs.blip.ai/#carousel"
           }
@@ -480,7 +537,7 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Messenger",
@@ -497,7 +554,7 @@
           "isSupported": false
         },
         "list": {
-          "isSupported": true
+          "isSupported": false
         },
         "location": {
           "isSupported": false
@@ -511,7 +568,7 @@
             "title": "Áudio - Messenger",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "",
+              "src": "audioMessenger",
               "title": "Conteúdo tipo áudio do Messenger",
               "alt": "Conteúdo tipo áudio"
             },
@@ -524,7 +581,7 @@
             "title": "Documentos - Messenger",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "",
+              "src": "documentsMessenger",
               "title": "Conteúdo de documentos do Messenger",
               "alt": "Conteúdo de documentos"
             },
@@ -540,7 +597,7 @@
             "title": "Imagem - Messenger",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "",
+              "src": "imageMessenger",
               "title": "Conteúdo tipo imagem do Messenger",
               "alt": "Conteúdo tipo imagem"
             },
@@ -553,7 +610,7 @@
             "title": "Vídeo - Messenger",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "",
+              "src": "videoMessenger",
               "title": "Conteúdo tipo vídeo do Messenger",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -566,7 +623,7 @@
             "title": "Menu - Messenger",
             "description": "O conteúdo menu envia uma mensagem de texto com até três botões anexados.",
             "img": {
-              "src": "",
+              "src": "menuMessenger",
               "title": "Conteúdo tipo menu do Messenger",
               "alt": "Conteúdo tipo menu"
             },
@@ -605,7 +662,7 @@
             "docsUrl": "https://docs.blip.ai/#payment-receipt"
           }
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Messenger",
@@ -618,7 +675,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Messenger",
@@ -637,7 +694,7 @@
             "title": "Weblink - Messenger",
             "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
             "img": {
-              "src": "weblinkBlipChat",
+              "src": "weblinkMessenger",
               "title": "Conteúdo tipo weblink do Messenger",
               "alt": "Conteúdo tipo weblink"
             },
@@ -679,7 +736,7 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Apple Business Chat",
@@ -720,7 +777,7 @@
         "documents": {
           "isSupported": true,
           "modal": {
-            "title": "Documento - Apple Business Chat",
+            "title": "Documentos - Apple Business Chat",
             "description": "Os arquivos podem ser enviados de através da URL de um arquivo já existente.",
             "img": {
               "src": "mediaBusinessChat",
@@ -784,7 +841,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Apple Business Chat",
@@ -797,7 +854,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Apple Business Chat",
@@ -845,12 +902,12 @@
         "carousel": {
           "isSupported": true,
           "modal": {
-            "title": "Carrousel - Google Assistant",
+            "title": "Carrossel - Google Assistant",
             "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
             "img": {
               "src": "carosselGoogleAssistant",
-              "title": "Tipo de conteúdo carrousel do Google Assistant",
-              "alt": "Tipo de conteúdo carrousel"
+              "title": "Tipo de conteúdo Carrossel do Google Assistant",
+              "alt": "Tipo de conteúdo Carrossel"
             },
             "docsUrl": "https://docs.blip.ai/#carousel"
           }
@@ -858,7 +915,7 @@
         "chatState": {
           "isSupported": false
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Google Assistant",
@@ -896,7 +953,7 @@
             "title": "Pedir localização - Google Assistant",
             "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
             "img": {
-              "src": "",
+              "src": "requestLocationGoogleAssistant",
               "title": "Conteúdo tipo localização do Google Assistant",
               "alt": "Conteúdo tipo localização"
             },
@@ -939,7 +996,7 @@
           "isSupported": false
         },
         "menu": {
-          "isSupported": false          
+          "isSupported": false
         },
         "quickReply": {
           "isSupported": true,
@@ -963,7 +1020,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Google Assistant",
@@ -976,7 +1033,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Google Assistant",
@@ -1024,12 +1081,12 @@
         "carousel": {
           "isSupported": true,
           "modal": {
-            "title": "Carrousel - Workplace",
+            "title": "Carrossel - Workplace",
             "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
             "img": {
               "src": "carouselMessenger",
-              "title": "Tipo de conteúdo carrousel do Workplace",
-              "alt": "Tipo de conteúdo carrousel"
+              "title": "Tipo de conteúdo Carrossel do Workplace",
+              "alt": "Tipo de conteúdo Carrossel"
             },
             "docsUrl": "https://docs.blip.ai/#carousel"
           }
@@ -1047,7 +1104,7 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Workplace",
@@ -1064,7 +1121,7 @@
           "isSupported": false
         },
         "list": {
-          "isSupported": true
+          "isSupported": false
         },
         "location": {
           "isSupported": false
@@ -1091,7 +1148,7 @@
             "title": "Documentos - Workplace",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "documentMessenger",
+              "src": "documentsMessenger",
               "title": "Conteúdo de documentos do Workplace",
               "alt": "Conteúdo de documentos"
             },
@@ -1172,7 +1229,7 @@
             "docsUrl": "https://docs.blip.ai/#payment-receipt"
           }
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Workplace",
@@ -1185,7 +1242,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Workplace",
@@ -1236,7 +1293,7 @@
         "chatState": {
           "isSupported": false
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Email",
@@ -1303,7 +1360,7 @@
             "title": "GIF - Email",
             "description": "Envia uma mensagem de animação gif para o usuário.",
             "img": {
-              "src": "",
+              "src": "gifEmail",
               "title": "Conteúdo tipo imagem do Email",
               "alt": "Conteúdo tipo imagem"
             },
@@ -1361,7 +1418,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Email",
@@ -1374,7 +1431,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Email",
@@ -1422,12 +1479,12 @@
         "carousel": {
           "isSupported": true,
           "modal": {
-            "title": "Carrousel - Google RCS",
+            "title": "Carrossel - Google RCS",
             "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
             "img": {
               "src": "carrosselGoogleRcs",
-              "title": "Tipo de conteúdo carrousel do Google RCS",
-              "alt": "Tipo de conteúdo carrousel"
+              "title": "Tipo de conteúdo Carrossel do Google RCS",
+              "alt": "Tipo de conteúdo Carrossel"
             },
             "docsUrl": "https://docs.blip.ai/#carousel"
           }
@@ -1435,7 +1492,7 @@
         "chatState": {
           "isSupported": false
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Google RCS",
@@ -1560,7 +1617,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Google RCS",
@@ -1573,7 +1630,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Google RCS",
@@ -1601,7 +1658,7 @@
             "title": "Texto - Infobip",
             "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
             "img": {
-              "src": "",
+              "src": "textInfobip",
               "title": "Tipo de conteúdo texto do Infobip",
               "alt": "Tipo de conteúdo texto"
             },
@@ -1614,7 +1671,7 @@
         "chatState": {
           "isSupported": false
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Google RCS",
@@ -1645,7 +1702,7 @@
             "title": "Áudio - Infobip",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "",
+              "src": "textInfobip",
               "title": "Conteúdo tipo áudio do Infobip",
               "alt": "Conteúdo tipo áudio"
             },
@@ -1658,7 +1715,7 @@
             "title": "Documentos - Infobip",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "",
+              "src": "textInfobip",
               "title": "Conteúdo de documentos do Infobip",
               "alt": "Conteúdo de documentos"
             },
@@ -1671,7 +1728,7 @@
             "title": "GIF - Infobip",
             "description": "Envia uma mensagem de animação gif para o usuário.",
             "img": {
-              "src": "",
+              "src": "textInfobip",
               "title": "Conteúdo tipo imagem do Infobip",
               "alt": "Conteúdo tipo imagem"
             },
@@ -1684,7 +1741,7 @@
             "title": "Imagem - Infobip",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "",
+              "src": "textInfobip",
               "title": "Conteúdo tipo imagem do Infobip",
               "alt": "Conteúdo tipo imagem"
             },
@@ -1697,7 +1754,7 @@
             "title": "Vídeo - Infobip",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "",
+              "src": "textInfobip",
               "title": "Conteúdo tipo vídeo do Infobip",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -1719,7 +1776,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Infobip",
@@ -1732,7 +1789,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Infobip",
@@ -1783,7 +1840,7 @@
             "docsUrl": "https://docs.blip.ai/#chat-state"
           }
         },
-       "collection": {
+        "collection": {
           "isSupported": true,
           "modal": {
             "title": "Collection - Telegram",
@@ -1908,7 +1965,7 @@
         "paymentReceipt": {
           "isSupported": false
         },
-      "resource": {
+        "resource": {
           "isSupported": true,
           "modal": {
             "title": "Resource - Telegram",
@@ -1921,7 +1978,7 @@
             "docsUrl": "https://docs.blip.ai/#resource"
           }
         },
-      "sensitive": {
+        "sensitive": {
           "isSupported": true,
           "modal": {
             "title": "Sensitive - Telegram",
@@ -1948,6 +2005,6 @@
           }
         }
       }
-    }   
+    }
   }
 }
