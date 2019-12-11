@@ -29,13 +29,13 @@ table {
     padding-left: 4 * $m;
 
     @media only screen and (max-device-width: $bp-bart) {
-      padding-right: 3 * $m;
-      padding-left: 3 * $m;
+      padding-right: 2 * $m;
+      padding-left: 2 * $m;
     }
 
     @media only screen and (max-device-width: $bp-lisa) {
-      padding-right: 2 * $m;
-      padding-left: 2 * $m;
+      padding-right: 1 * $m;
+      padding-left: 1 * $m;
     }
   }
 

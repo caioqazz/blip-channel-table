@@ -65,7 +65,7 @@
       "description": "Allows sending of a native content of some channel using JSON format"
     },
     "paymentInvoice": {
-      "name": "Requisição de pagamentos",
+      "name": "Fatura",
       "description": "Allows sending of a payment request to a payment channel"
     },
     "paymentReceipt": {
@@ -828,12 +828,12 @@
         "paymentInvoice": {
           "isSupported": true,
           "modal": {
-            "title": "Requisição de pagamentos pelo Apple Pay - Apple Business Chat",
+            "title": "Fatura pelo Apple Pay - Apple Business Chat",
             "description": "Mostra ao usuário uma série de informações a respeito de uma compra e uma requisição para pagamentos através do Apple Pay.",
             "img": {
               "src": "paymentInvoiceBusinessChat",
-              "title": "Conteúdo de requisição de pagamentos do Apple Business Chat",
-              "alt": "Conteúdo de requisição de pagamentos"
+              "title": "Conteúdo de Fatura do Apple Business Chat",
+              "alt": "Conteúdo de Fatura"
             },
             "docsUrl": "https://docs.blip.ai/#payment-invoice"
           }
