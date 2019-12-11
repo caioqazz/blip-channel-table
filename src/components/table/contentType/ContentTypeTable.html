@@ -2,7 +2,7 @@
     <table id="blip-channel-main-table" class="side-table">
         <thead class="side-table__head">
             <tr>
-                <th>
+                <th class="first-column-head">
                     Tipos de conteúdos  
                 </th>
             </tr>
@@ -10,7 +10,7 @@
         <tbody class="side-table__body">
             { #each Object.entries(contentTypes) as [content, value] }
             <tr>
-                <td>
+                <td class="first-column-content">
                     <p class="content-title">
                         {value.name}
                     </p>

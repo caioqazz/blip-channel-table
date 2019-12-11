@@ -18,7 +18,7 @@ table {
     }
 
     &:nth-child(odd) {
-      background-color: $bp-color-offwhite;
+      background-color: #F5F8F9;
     }
   }
 
@@ -38,6 +38,16 @@ table {
       padding-left: 1 * $m;
     }
   }
+  .first-column-head{
+    padding-right: 3 * $m;
+    padding-left: 1 * $m;
+  }
+  .first-column-content{
+    padding-right: 3 * $m;
+    padding-left: 1.5 * $m;
+
+  }
+ 
 
   td {
     p {
