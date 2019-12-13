@@ -1,6 +1,9 @@
 .responsive-table {
   max-width: 100%;
   display: inline-flex;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
   flex-direction: row;
   flex-wrap: nowrap;
 

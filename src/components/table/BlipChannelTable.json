@@ -644,7 +644,17 @@
           }
         },
         "native": {
-          "isSupported": true
+          "isSupported": true,
+          "modal": {
+            "title": "Native - Messenger",
+            "description": "Permite o envio de um conteúdo nativo de algum canal usando o formato JSON. É possível usar qualquer recurso disponível de qualquer canal, mesmo que esse conteúdo ainda não seja suportado como um tipo canônico BLiP.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo native do Messenger",
+              "alt": "Conteúdo tipo native"
+            },
+            "docsUrl": "https://docs.blip.ai/#native-content"
+          }
         },
         "paymentInvoice": {
           "isSupported": false

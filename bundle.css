@@ -5180,11 +5180,13 @@ table td p {
   margin: 0;
   padding: 0;
   white-space: nowrap;
+  color: #738192;
 }
 table th,
 table td {
   font-size: 1rem;
   line-height: 100%;
+  color: #738192;
 }
 
 .modal-controller ~ .modal {

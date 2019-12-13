@@ -1,4 +1,9 @@
 table {
+  
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  
   .channel-icon {
     width: 4 * $m;
     height: 4 * $m;
