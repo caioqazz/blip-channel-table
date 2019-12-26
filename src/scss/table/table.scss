@@ -18,37 +18,74 @@ table {
     }
 
     &:nth-child(odd) {
-      background-color: #F5F8F9;
+      background-color: #f5f8f9;
     }
   }
 
-  th, td {
-    font-weight: $bp-fw-bold;
+  // th, td {
+  //   font-weight: $bp-fw-bold;
 
-    padding-right: 4 * $m;
-    padding-left: 4 * $m;
+  //     padding-right: 4 * $m;
+  //     padding-left: 4 * $m;
 
-    @media only screen and (max-device-width: $bp-bart) {
+  //   @media only screen and (min-device-width: 2px) and (max-device-width: 2736px) {
+  //     padding-right: 2 * $m;
+  //     padding-left: 2 * $m;
+  //   }
+
+  //   @media only screen and (max-device-width: $bp-lisa) {
+  //     padding-right: 1 * $m;
+  //     padding-left: 1 * $m;
+  //   }
+  // }
+
+  @media only screen and (min-width: 789px) {
+    th,
+    td {
+      font-weight: $bp-fw-bold;
+      padding-right: 0.8 * $m;
+      padding-left: 0.8 * $m;
+    }
+  }
+  @media only screen and (min-width: 790px) and (max-width: 989px) {
+    th,
+    td {
+      padding-right: 1.2 * $m;
+      padding-left: 1.2 * $m;
+    }
+  }
+  @media only screen and (min-width: 990px) and (max-width: 1199px) {
+    th,
+    td {
       padding-right: 2 * $m;
       padding-left: 2 * $m;
     }
+  }
 
-    @media only screen and (max-device-width: $bp-lisa) {
-      padding-right: 1 * $m;
-      padding-left: 1 * $m;
+  @media only screen and (min-width: 1200px) and (max-width: 1499px) {
+    th,
+    td {
+      padding-right: 3 * $m;
+      padding-left: 3 * $m;
     }
   }
-  .first-column-head{
+
+  @media only screen and (min-width: 1500px) {
+    th,
+    td {
+      padding-right: 4 * $m;
+      padding-left: 4 * $m;
+    }
+  }
+  .first-column-head {
     padding-right: 3 * $m;
     padding-left: 1 * $m;
     color: #738192;
   }
-  .first-column-content{
+  .first-column-content {
     padding-right: 3 * $m;
     padding-left: 1.5 * $m;
-
   }
- 
 
   td {
     p {
