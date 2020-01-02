@@ -2045,6 +2045,205 @@
           }
         }
       }
+    },
+    "Microsoft Teams": {
+      "name": "Microsoft Teams",
+      "svg": "microsoftTeams",
+      "support": {
+        "text": {
+          "isSupported": true,
+          "modal": {
+            "title": "Texto - Microsoft Teams",
+            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
+            "img": {
+              "src": "",
+              "title": "Tipo de conteúdo texto do Microsoft Teams",
+              "alt": "Tipo de conteúdo texto"
+            },
+            "docsUrl": "https://docs.blip.ai/#plain-text"
+          }
+        },
+        "carousel": {
+          "isSupported": false
+        },
+        "chatState": {
+          "isSupported": false,
+          "modal": {
+            "title": "Digitando (Chat State) - Microsoft Teams",
+            "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
+            "img": {
+              "src": "chatStateTelegram",
+              "title": "Conteúdo tipo digitando do Microsoft Teams",
+              "alt": "Conteúdo tipo digitando"
+            },
+            "docsUrl": "https://docs.blip.ai/#chat-state"
+          }
+        },
+        "collection": {
+          "isSupported": false,
+          "modal": {
+            "title": "Collection - Microsoft Teams",
+            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo Collection do Microsoft Teams",
+              "alt": "Conteúdo tipo Collection"
+            },
+            "docsUrl": "https://docs.blip.ai/#collection"
+          }
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": false
+        },
+        "location": {
+          "isSupported": false,
+          "modal": {
+            "title": "Enviar localização - Microsoft Teams",
+            "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
+            "img": {
+              "src": "locationTelegram",
+              "title": "Conteúdo tipo localização do Microsoft Teams",
+              "alt": "Conteúdo tipo localização"
+            },
+            "docsUrl": "https://docs.blip.ai/#send-location"
+          }
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": false,
+          "modal": {
+            "title": "Áudio - Microsoft Teams",
+            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
+            "img": {
+              "src": "audioTelegram",
+              "title": "Conteúdo tipo áudio do Microsoft Teams",
+              "alt": "Conteúdo tipo áudio"
+            },
+            "docsUrl": "https://docs.blip.ai/#audio"
+          }
+        },
+        "documents": {
+          "isSupported": false,
+          "modal": {
+            "title": "Documentos - Microsoft Teams",
+            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
+            "img": {
+              "src": "documentsTelegram",
+              "title": "Conteúdo de documentos do Microsoft Teams",
+              "alt": "Conteúdo de documentos"
+            },
+            "docsUrl": "https://docs.blip.ai/#document-files"
+          }
+        },
+        "gif": {
+          "isSupported": false
+        },
+        "image": {
+          "isSupported": false,
+          "modal": {
+            "title": "Imagem - Microsoft Teams",
+            "description": "Envia uma mensagem de imagem para o usuário.",
+            "img": {
+              "src": "imageTelegram",
+              "title": "Conteúdo tipo imagem do Microsoft Teams",
+              "alt": "Conteúdo tipo imagem"
+            },
+            "docsUrl": "https://docs.blip.ai/#images"
+          }
+        },
+        "video": {
+          "isSupported": false,
+          "modal": {
+            "title": "Vídeo - Microsoft Teams",
+            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
+            "img": {
+              "src": "videoTelegram",
+              "title": "Conteúdo tipo vídeo do Microsoft Teams",
+              "alt": "Conteúdo tipo vídeo"
+            },
+            "docsUrl": "https://docs.blip.ai/#video"
+          }
+        },
+        "menu": {
+          "isSupported": false,
+          "modal": {
+            "title": "Menu - Microsoft Teams",
+            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
+            "img": {
+              "src": "menuTelegram",
+              "title": "Conteúdo tipo menu do Microsoft Teams",
+              "alt": "Conteúdo tipo menu"
+            },
+            "docsUrl": "https://docs.blip.ai/#menu"
+          }
+        },
+        "quickReply": {
+          "isSupported": false,
+          "modal": {
+            "title": "Quick Reply - Microsoft Teams",
+            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
+            "img": {
+              "src": "quickReplyTelegram",
+              "title": "Conteúdo tipo quick reply do Microsoft Teams",
+              "alt": "Conteúdo tipo quick reply"
+            },
+            "docsUrl": "https://docs.blip.ai/#quick-replies"
+          }
+        },
+        "native": {
+          "isSupported": false
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": false,
+          "modal": {
+            "title": "Resource - Microsoft Teams",
+            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo resource do Microsoft Teams",
+              "alt": "Conteúdo tipo resource"
+            },
+            "docsUrl": "https://docs.blip.ai/#resource"
+          }
+        },
+        "sensitive": {
+          "isSupported": false,
+          "modal": {
+            "title": "Sensitive - Microsoft Teams",
+            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Microsoft Teams, etc.) ainda podem armazenar suas informações de alguma forma.",
+            "img": {
+              "src": "",
+              "title": "Conteúdo tipo sensitive do Microsoft Teams",
+              "alt": "Conteúdo tipo sensitive"
+            },
+            "docsUrl": "https://docs.blip.ai/#sensitive-information"
+          }
+        },
+        "weblink": {
+          "isSupported": false,
+          "modal": {
+            "title": "Weblink - Microsoft Teams",
+            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
+            "img": {
+              "src": "weblinkTelegram",
+              "title": "Conteúdo tipo weblink do Microsoft Teams",
+              "alt": "Conteúdo tipo weblink"
+            },
+            "docsUrl": "https://docs.blip.ai/#web-link"
+          }
+        }
+      }
     }
   }
 }

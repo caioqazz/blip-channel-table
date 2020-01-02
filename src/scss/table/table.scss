@@ -54,15 +54,28 @@ table {
       padding-left: 1.2 * $m;
     }
   }
-  @media only screen and (min-width: 990px) and (max-width: 1199px) {
+  @media only screen and (min-width: 990px) and (max-width: 1074px) {
     th,
     td {
-      padding-right: 2 * $m;
-      padding-left: 2 * $m;
+      padding-right: 1.4 * $m;
+      padding-left: 1.4 * $m;
     }
   }
-
-  @media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  @media only screen and (min-width: 1075px) and (max-width: 1199px) {
+    th,
+    td {
+      padding-right: 1.8 * $m;
+      padding-left: 1.8 * $m;
+    }
+  }
+  @media only screen and (min-width: 1199px) and (max-width: 1349px) {
+    th,
+    td {
+      padding-right: 2.5 * $m;
+      padding-left: 2.5 * $m;
+    }
+  }
+  @media only screen and (min-width: 1350px) and (max-width: 1499px) {
     th,
     td {
       padding-right: 3 * $m;

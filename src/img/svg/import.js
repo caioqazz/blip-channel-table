@@ -9,9 +9,9 @@ import skype from "./skype-logo.svg";
 import telegram from "./telegram-logo.svg";
 import whatsApp from "./whatsapp.svg";
 import workplace from "./workplace-logo.svg";
-import cancel from './cancel.svg'
-import check from './check.svg'
-
+import cancel from './cancel.svg';
+import check from './check.svg';
+import microsoftTeams from './microsoft-teams.svg';
 
 import image from "./image.svg";
 import menu from "./menu.svg";
@@ -29,7 +29,7 @@ export const channelSvgs = {
     telegram,
     whatsApp,
     workplace,
-   
+    microsoftTeams,
     
 };
 
