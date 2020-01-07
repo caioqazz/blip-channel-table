@@ -2193,12 +2193,12 @@
           }
         },
         "quickReply": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Quick Reply - Microsoft Teams",
-            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
+            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário. Neste canal, este tipo de conteúdo não desaparece após clique de opção.",
             "img": {
-              "src": "quickReplyTelegram",
+              "src": "quickReplyMicrosoftTeams",
               "title": "Conteúdo tipo quick reply do Microsoft Teams",
               "alt": "Conteúdo tipo quick reply"
             },

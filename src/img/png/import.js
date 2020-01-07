@@ -89,6 +89,7 @@ import textMicrosoftTeams from "./MicrosoftTeams/text.png";
 import videoMicrosoftTeams from "./MicrosoftTeams/video.png";
 import imageMicrosoftTeams from "./MicrosoftTeams/image.png";
 import weblinkMicrosoftTeams from "./MicrosoftTeams/weblink.png";
+import quickReplyMicrosoftTeams from "./MicrosoftTeams/quickReply.png";
 
 
 export const sampleImages = {
@@ -171,6 +172,7 @@ export const sampleImages = {
     weblinkMicrosoftTeams,
     carrouselMicrosoftTeams,
     chatStateMicrosoftTeams,
-    menuMicrosoftTeams
+    menuMicrosoftTeams,
+    quickReplyMicrosoftTeams
 
 };
