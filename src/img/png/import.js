@@ -79,6 +79,17 @@ import textWhatsapp from "./Whatsapp/text.png";
 import videoWhatsapp from "./Whatsapp/video.png";
 import imageWhatsapp from "./Whatsapp/imagem.png";
 import weblinkWhatsapp from "./Whatsapp/weblink.png";
+/*Microsoft Teams*/
+import audioMicrosoftTeams from "./MicrosoftTeams/audio.png";
+import documentsMicrosoftTeams from "./MicrosoftTeams/document.png";
+import carrouselMicrosoftTeams from "./MicrosoftTeams/carrousel.png";
+import chatStateMicrosoftTeams from "./MicrosoftTeams/chat-state.png";
+import menuMicrosoftTeams from "./MicrosoftTeams/menu.png";
+import textMicrosoftTeams from "./MicrosoftTeams/text.png";
+import videoMicrosoftTeams from "./MicrosoftTeams/video.png";
+import imageMicrosoftTeams from "./MicrosoftTeams/image.png";
+import weblinkMicrosoftTeams from "./MicrosoftTeams/weblink.png";
+
 
 export const sampleImages = {
     test,
@@ -151,6 +162,15 @@ export const sampleImages = {
     textWhatsapp,
     videoWhatsapp,
     weblinkWhatsapp,
-    imageWhatsapp
+    imageWhatsapp,
+    audioMicrosoftTeams,
+    documentsMicrosoftTeams,
+    textMicrosoftTeams,
+    videoMicrosoftTeams,
+    imageMicrosoftTeams,
+    weblinkMicrosoftTeams,
+    carrouselMicrosoftTeams,
+    chatStateMicrosoftTeams,
+    menuMicrosoftTeams
 
 };

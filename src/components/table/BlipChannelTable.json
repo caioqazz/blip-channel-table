@@ -2046,7 +2046,7 @@
         }
       }
     },
-    "Microsoft Teams": {
+    "microsoftTeams": {
       "name": "Microsoft Teams",
       "svg": "microsoftTeams",
       "support": {
@@ -2056,7 +2056,7 @@
             "title": "Texto - Microsoft Teams",
             "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
             "img": {
-              "src": "",
+              "src": "textMicrosoftTeams",
               "title": "Tipo de conteúdo texto do Microsoft Teams",
               "alt": "Tipo de conteúdo texto"
             },
@@ -2064,15 +2064,25 @@
           }
         },
         "carousel": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Carrossel - Microsoft Teams",
+            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título. ",
+            "img": {
+              "src": "carrouselMicrosoftTeams",
+              "title": "Tipo de conteúdo Carrossel do Microsoft Teams",
+              "alt": "Tipo de conteúdo Carrossel"
+            },
+            "docsUrl": "https://docs.blip.ai/#carousel"
+          }
         },
         "chatState": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Digitando (Chat State) - Microsoft Teams",
             "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
             "img": {
-              "src": "chatStateTelegram",
+              "src": "chatStateMicrosoftTeams",
               "title": "Conteúdo tipo digitando do Microsoft Teams",
               "alt": "Conteúdo tipo digitando"
             },
@@ -2080,7 +2090,7 @@
           }
         },
         "collection": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Collection - Microsoft Teams",
             "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
@@ -2115,12 +2125,12 @@
           "isSupported": false
         },
         "audio": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Áudio - Microsoft Teams",
             "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
             "img": {
-              "src": "audioTelegram",
+              "src": "audioMicrosoftTeams",
               "title": "Conteúdo tipo áudio do Microsoft Teams",
               "alt": "Conteúdo tipo áudio"
             },
@@ -2128,12 +2138,12 @@
           }
         },
         "documents": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Documentos - Microsoft Teams",
             "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
             "img": {
-              "src": "documentsTelegram",
+              "src": "documentsMicrosoftTeams",
               "title": "Conteúdo de documentos do Microsoft Teams",
               "alt": "Conteúdo de documentos"
             },
@@ -2144,12 +2154,12 @@
           "isSupported": false
         },
         "image": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Imagem - Microsoft Teams",
             "description": "Envia uma mensagem de imagem para o usuário.",
             "img": {
-              "src": "imageTelegram",
+              "src": "imageMicrosoftTeams",
               "title": "Conteúdo tipo imagem do Microsoft Teams",
               "alt": "Conteúdo tipo imagem"
             },
@@ -2157,12 +2167,12 @@
           }
         },
         "video": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Vídeo - Microsoft Teams",
             "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
             "img": {
-              "src": "videoTelegram",
+              "src": "videoMicrosoftTeams",
               "title": "Conteúdo tipo vídeo do Microsoft Teams",
               "alt": "Conteúdo tipo vídeo"
             },
@@ -2170,12 +2180,12 @@
           }
         },
         "menu": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Menu - Microsoft Teams",
-            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
+            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário, neste Canal as opções do menu são apresentadas horizontalmente.",
             "img": {
-              "src": "menuTelegram",
+              "src": "menuMicrosoftTeams",
               "title": "Conteúdo tipo menu do Microsoft Teams",
               "alt": "Conteúdo tipo menu"
             },
@@ -2205,7 +2215,7 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Resource - Microsoft Teams",
             "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
@@ -2218,7 +2228,7 @@
           }
         },
         "sensitive": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Sensitive - Microsoft Teams",
             "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Microsoft Teams, etc.) ainda podem armazenar suas informações de alguma forma.",
@@ -2231,12 +2241,12 @@
           }
         },
         "weblink": {
-          "isSupported": false,
+          "isSupported": true,
           "modal": {
             "title": "Weblink - Microsoft Teams",
             "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
             "img": {
-              "src": "weblinkTelegram",
+              "src": "weblinkMicrosoftTeams",
               "title": "Conteúdo tipo weblink do Microsoft Teams",
               "alt": "Conteúdo tipo weblink"
             },
