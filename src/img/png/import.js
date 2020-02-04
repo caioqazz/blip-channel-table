@@ -18,6 +18,7 @@ import sendLocationBlipChat from "./BlipChat/send-location-blip-chat.png";
 import textBlipChat from "./BlipChat/text-blip-chat.png";
 import videoBlipChat from "./BlipChat/video-blip-chat.png";
 import weblinkBlipChat from "./BlipChat/weblink-blip-chat.png";
+import gifBlipChat from "./BlipChat/gif-blip-chat.png";
 /* Email */
 import audioEmail from "./Email/audio-email.png";
 import documentEmail from "./Email/document-email.png";
@@ -40,6 +41,7 @@ import audioMessenger from "./Messenger/audio-messenger.png";
 import documentsMessenger from "./Messenger/documents-messenger.png";
 import imageMessenger from "./Messenger/image-messenger.png";
 import videoMessenger from "./Messenger/video-messenger.png";
+import gifMessenger from "./Messenger/gif-messenger.png"
 /* Google Assistant */
 import audioGoogleAssistant from "./GoogleAssistant/audio-google-assistant.png";
 import carosselGoogleAssistant from "./GoogleAssistant/carossel-google-assistant.png";
@@ -111,6 +113,7 @@ export const sampleImages = {
     textBlipChat,
     videoBlipChat,
     weblinkBlipChat,
+    gifBlipChat,
     audioEmail,
     documentEmail,
     gifEmail,
@@ -131,6 +134,7 @@ export const sampleImages = {
     documentsMessenger,
     imageMessenger,
     videoMessenger,
+    gifMessenger,
     audioGoogleAssistant,
     carosselGoogleAssistant,
     imageGoogleAssistant,

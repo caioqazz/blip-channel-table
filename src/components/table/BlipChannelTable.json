@@ -211,7 +211,17 @@
           }
         },
         "gif": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Gif - BLiP Chat",
+            "description": "Envia uma mensagem com um conteúdo do tipo IMAGEM GIF para o usuário.",
+            "img": {
+              "src": "gifBlipChat",
+              "title": "Conteúdo GIF BLiP Chat",
+              "alt": "Conteúdo de GIF"
+            },
+            "docsUrl": "https://docs.blip.ai/#gif"
+          }
         },
         "image": {
           "isSupported": true,
@@ -589,7 +599,17 @@
           }
         },
         "gif": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Gif - Messenger",
+            "description": "Envia uma mensagem com um conteúdo do tipo imagem gif.",
+            "img": {
+              "src": "gifMessenger",
+              "title": "Conteúdo de imagem Gif do Workplace",
+              "alt": "Conteúdo de imagem gif"
+            },
+            "docsUrl": "https://docs.blip.ai/#gif"
+          }
         },
         "image": {
           "isSupported": true,
@@ -1186,7 +1206,17 @@
           }
         },
         "gif": {
-          "isSupported": false
+          "isSupported": true,
+          "modal": {
+            "title": "Gif - Workplace",
+            "description": "Envia uma mensagem com um conteúdo do tipo Imagem Gif.",
+            "img": {
+              "src": "gifMessenger",
+              "title": "Conteúdo de Gif do Workplace",
+              "alt": "Conteúdo de Gif"
+            },
+            "docsUrl": "https://docs.blip.ai/#gif"
+          }
         },
         "image": {
           "isSupported": true,
