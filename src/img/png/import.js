@@ -81,6 +81,7 @@ import textWhatsapp from "./Whatsapp/text.png";
 import videoWhatsapp from "./Whatsapp/video.png";
 import imageWhatsapp from "./Whatsapp/imagem.png";
 import weblinkWhatsapp from "./Whatsapp/weblink.png";
+import quickWhatsApp from "./Whatsapp/quickReply.png";
 /*Microsoft Teams*/
 import audioMicrosoftTeams from "./MicrosoftTeams/audio.png";
 import documentsMicrosoftTeams from "./MicrosoftTeams/document.png";
@@ -168,6 +169,7 @@ export const sampleImages = {
     videoWhatsapp,
     weblinkWhatsapp,
     imageWhatsapp,
+    quickWhatsApp,
     audioMicrosoftTeams,
     documentsMicrosoftTeams,
     textMicrosoftTeams,
