@@ -9,7 +9,7 @@
     "url": "https://github.com/npm/cli.git"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "CI= rollup -c",
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public",
