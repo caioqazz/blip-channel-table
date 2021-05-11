@@ -2268,7 +2268,7 @@
           }
         },
         "sensitive": {
-          "isSupported": true,
+          "isSupported": false,
           "modal": {
             "title": "Sensitive - Microsoft Teams",
             "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Microsoft Teams, etc.) ainda podem armazenar suas informações de alguma forma.",
