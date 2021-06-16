@@ -118,7 +118,7 @@
 */
 .bp-btn {
   display: inline-block;
-  cursor: pointer;
+  cursor: default !important;
   min-width: 10rem;
   height: 2.625rem;
   line-height: 2.375rem;

@@ -1,4 +1,4 @@
-<ChannelSupportSampleModal title={modal.title} description={modal.description} img={modal.img} docsUrl={modal.docsUrl}/>
+
 <div id="blip-channel-table-container">
     <BlipChannelTableCaption/>
     <div id="blip-channel-table" class="responsive-table">
@@ -6,8 +6,7 @@
         contentTypes={contentTypes}/>
         <ChannelSupportTable
         channels={channels}
-        contentTypes={contentTypes}
-        on:look="updateModal(event)"/>
+        contentTypes={contentTypes}/>
     </div>
 </div>
 
@@ -24,16 +23,6 @@ export default {
         return {
             channels: BlipChannelTableJson.contentCapabilityPerChannel,
             contentTypes: BlipChannelTableJson.contentTypes,
-            modal: {
-                title: 'Title',
-                description: 'Description',
-                img: {
-                    src: undefined,
-                    title: 'Img title',
-                    alt: 'Img alt'
-                },
-                docsUrl: undefined
-            }
         };
     },
     components: {

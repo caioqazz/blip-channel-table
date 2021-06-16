@@ -12,6 +12,9 @@ import workplace from "./workplace-logo.svg";
 import cancel from './cancel.svg';
 import check from './check.svg';
 import microsoftTeams from './microsoft-teams.svg';
+import instagram from './instagram.svg';
+import googleBusiness from './googleBusiness.svg';
+import alexa from './alexa.svg';
 
 import image from "./image.svg";
 import menu from "./menu.svg";
@@ -30,6 +33,9 @@ export const channelSvgs = {
     whatsApp,
     workplace,
     microsoftTeams,
+    instagram,
+    googleBusiness,
+    alexa,
     
 };
 
