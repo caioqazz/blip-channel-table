@@ -330,17 +330,7 @@
       "svg": "whatsApp",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - WhatsApp",
-            "description": "O texto simples é a base de qualquer experiência no Messenger e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa.",
-            "img": {
-              "src": "textWhatsapp",
-              "title": "Tipo de conteúdo texto do WhatsApp",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
           "isSupported": false
@@ -349,120 +339,40 @@
           "isSupported": false
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - WhatsApp",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do WhatsApp",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
         },
         "input": {
-          "isSupported": true,
-          "modal": {
-            "title": "Input - WhatsApp",
-            "description": "Envia solicitações de informações estruturadas para o usuário, onde é possível definir regras de validação. Isso é útil para criar formulários de perguntas e obter informações específicas do usuário - como nome ou número de telefone - ou informações digitadas - como uma imagem ou local.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Input do WhatsApp",
-              "alt": "Conteúdo tipo Input"
-            },
-            "docsUrl": "https://docs.blip.ai/#input"
-          }
+          "isSupported": true
         },
         "list": {
           "isSupported": false
         },
         "location": {
-          "isSupported": true,
-          "modal": {
-            "title": "Enviar localização - WhatsApp",
-            "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
-            "img": {
-              "src": "locationWhatsapp",
-              "title": "Conteúdo tipo localização do WhatsApp",
-              "alt": "Conteúdo tipo localização"
-            },
-            "docsUrl": "https://docs.blip.ai/#send-location"
-          }
+          "isSupported": true
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - WhatsApp",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "audioWhatsapp",
-              "title": "Conteúdo tipo áudio do WhatsApp",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": true
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - WhatsApp",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "documentsWhatsapp",
-              "title": "Conteúdo de documentos do WhatsApp",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": true
         },
         "gif": {
-          "isSupported": false
+          "isSupported": true
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - WhatsApp",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "imageWhatsapp",
-              "title": "Conteúdo tipo imagem do WhatsApp",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - WhatsApp",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "videoWhatsapp",
-              "title": "Conteúdo tipo vídeo do WhatsApp",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": true
         },
         "menu": {
-          "isSupported": false
+          "isSupported": true
         },
         "quickReply": {
-          "isSupported": true,
-          "modal": {
-            "title": "Quick reply - WhatsApp",
-            "description": "Envia uma mensagem que permite respostas rápidas predefinidas. Possível apenas através de conteúdo dinâmico e Message Templates",
-            "img": {
-              "src": "quickWhatsApp",
-              "title": "Conteúdo tipo quick reply do WhatsApp",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#quick-replies"
-          }
+          "isSupported": true
         },
         "native": {
           "isSupported": false
@@ -474,43 +384,13 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - WhatsApp",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do WhatsApp",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - WhatsApp",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do WhatsApp",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - WhatsApp",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
-            "img": {
-              "src": "weblinkWhatsapp",
-              "title": "Conteúdo tipo weblink do WhatsApp",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": true
         }
       }
     },
@@ -519,56 +399,85 @@
       "svg": "messenger",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Messenger",
-            "description": "O texto simples é a base de qualquer experiência no Messenger e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa.",
-            "img": {
-              "src": "textMessenger",
-              "title": "Tipo de conteúdo texto do Messenger",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
-          "isSupported": true,
-          "modal": {
-            "title": "Carrossel - Messenger",
-            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
-            "img": {
-              "src": "carouselMessenger",
-              "title": "Tipo de conteúdo Carrossel do Messenger",
-              "alt": "Tipo de conteúdo Carrossel"
-            },
-            "docsUrl": "https://docs.blip.ai/#carousel"
-          }
+          "isSupported": true
         },
         "chatState": {
-          "isSupported": true,
-          "modal": {
-            "title": "Digitando (Chat State) - Messenger",
-            "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
-            "img": {
-              "src": "chatStateMessenger",
-              "title": "Conteúdo tipo digitando do Messenger",
-              "alt": "Conteúdo tipo digitando"
-            },
-            "docsUrl": "https://docs.blip.ai/#chat-state"
-          }
+          "isSupported": true
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Messenger",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do Messenger",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": true
+        },
+        "location": {
+          "isSupported": true
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": true
+        },
+        "documents": {
+          "isSupported": true
+        },
+        "gif": {
+          "isSupported": true
+        },
+        "image": {
+          "isSupported": true
+        },
+        "video": {
+          "isSupported": true
+        },
+        "menu": {
+          "isSupported": true
+        },
+        "quickReply": {
+          "isSupported": true
+        },
+        "native": {
+          "isSupported": true
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": true
+        },
+        "resource": {
+          "isSupported": true
+        },
+        "sensitive": {
+          "isSupported": true
+        },
+        "weblink": {
+          "isSupported": true
+        }
+      }
+    },
+    "googleBusinessChat": {
+      "name": "Google Business Chat",
+      "svg": "googleBusiness",
+      "support": {
+        "text": {
+          "isSupported": true
+        },
+        "carousel": {
+          "isSupported": true
+        },
+        "chatState": {
+          "isSupported": false
+        },
+        "collection": {
+          "isSupported": false
         },
         "input": {
           "isSupported": false
@@ -583,163 +492,43 @@
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Messenger",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "audioMessenger",
-              "title": "Conteúdo tipo áudio do Messenger",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": false
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Messenger",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "documentsMessenger",
-              "title": "Conteúdo de documentos do Messenger",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": false
         },
         "gif": {
-          "isSupported": true,
-          "modal": {
-            "title": "Gif - Messenger",
-            "description": "Envia uma mensagem com um conteúdo do tipo imagem gif.",
-            "img": {
-              "src": "gifMessenger",
-              "title": "Conteúdo de imagem Gif do Workplace",
-              "alt": "Conteúdo de imagem gif"
-            },
-            "docsUrl": "https://docs.blip.ai/#gif"
-          }
+          "isSupported": false
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Messenger",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "imageMessenger",
-              "title": "Conteúdo tipo imagem do Messenger",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Messenger",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "videoMessenger",
-              "title": "Conteúdo tipo vídeo do Messenger",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": false
         },
         "menu": {
-          "isSupported": true,
-          "modal": {
-            "title": "Menu - Messenger",
-            "description": "O conteúdo menu envia uma mensagem de texto com até três botões anexados.",
-            "img": {
-              "src": "menuMessenger",
-              "title": "Conteúdo tipo menu do Messenger",
-              "alt": "Conteúdo tipo menu"
-            },
-            "docsUrl": "https://docs.blip.ai/#menu"
-          }
+          "isSupported": false
         },
         "quickReply": {
-          "isSupported": true,
-          "modal": {
-            "title": "Quick Reply - Messenger",
-            "description": "O tipo de conteúdo quick-reply permite que você apresente um conjunto predefinido de opções ao destinatário da mensagem, que aparecem com destaque logo acima da caixa de inserção de texto. Quando um usuário seleciona uma dessas opções, o conjunto é substituído por uma única mensagem de texto contendo essa mensagem selecionada.",
-            "img": {
-              "src": "quickReplyMessenger",
-              "title": "Conteúdo tipo quick reply do Messenger",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#quick-replies"
-          }
+          "isSupported": true
         },
         "native": {
-          "isSupported": true,
-          "modal": {
-            "title": "Native - Messenger",
-            "description": "Permite o envio de um conteúdo nativo de algum canal usando o formato JSON. É possível usar qualquer recurso disponível de qualquer canal, mesmo que esse conteúdo ainda não seja suportado como um tipo canônico BLiP.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo native do Messenger",
-              "alt": "Conteúdo tipo native"
-            },
-            "docsUrl": "https://docs.blip.ai/#native-content"
-          }
+          "isSupported": false
         },
         "paymentInvoice": {
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": true,
-          "modal": {
-            "title": "Recibo - Messenger",
-            "description": "O tipo de conteúdo de recibo permite que você envie uma confirmação de pedido por meio de uma mensagem estruturada. Este conteúdo pode conter o resumo de uma compra, detalhes do pagamento e informações de envio.",
-            "img": {
-              "src": "paymentReceiptMessenger",
-              "title": "Conteúdo tipo quick reply do Messenger",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#payment-receipt"
-          }
+          "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Messenger",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Messenger",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": false
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Messenger",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Messenger",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - Messenger",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
-            "img": {
-              "src": "weblinkMessenger",
-              "title": "Conteúdo tipo weblink do Messenger",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": false
         }
       }
     },
@@ -748,46 +537,85 @@
       "svg": "appleBusinessChat",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Apple Business Chat",
-            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
-            "img": {
-              "src": "textBusinessChat",
-              "title": "Conteúdo tipo texto do Apple Business Chat",
-              "alt": "Conteúdo tipo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
           "isSupported": false
         },
         "chatState": {
-          "isSupported": true,
-          "modal": {
-            "title": "Digitando (Chat State) - Apple Business Chat",
-            "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
-            "img": {
-              "src": "stateChatBusinessChat",
-              "title": "Conteúdo tipo digitando do Apple Business Chat",
-              "alt": "Conteúdo tipo digitando"
-            },
-            "docsUrl": "https://docs.blip.ai/#chat-state"
-          }
+          "isSupported": true
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Apple Business Chat",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do Apple Business Chat",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": true
+        },
+        "location": {
+          "isSupported": false
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": false
+        },
+        "documents": {
+          "isSupported": true
+        },
+        "gif": {
+          "isSupported": false
+        },
+        "image": {
+          "isSupported": true
+        },
+        "video": {
+          "isSupported": true
+        },
+        "menu": {
+          "isSupported": false
+        },
+        "quickReply": {
+          "isSupported": false
+        },
+        "native": {
+          "isSupported": true
+        },
+        "paymentInvoice": {
+          "isSupported": true
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": true
+        },
+        "sensitive": {
+          "isSupported": true
+        },
+        "weblink": {
+          "isSupported": true
+        }
+      }
+    },
+    "alexa": {
+      "name": "Alexa",
+      "svg": "alexa",
+      "support": {
+        "text": {
+          "isSupported": true
+        },
+        "carousel": {
+          "isSupported": false
+        },
+        "chatState": {
+          "isSupported": false
+        },
+        "collection": {
+          "isSupported": false
         },
         "input": {
           "isSupported": false
@@ -802,59 +630,19 @@
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Apple Business Chat",
-            "description": "Os arquivos podem ser enviados através da URL de um arquivo já existente.",
-            "img": {
-              "src": "mediaBusinessChat",
-              "title": "Conteúdo tipo áudio do Apple Business Chat",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": false
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Apple Business Chat",
-            "description": "Os arquivos podem ser enviados de através da URL de um arquivo já existente.",
-            "img": {
-              "src": "mediaBusinessChat",
-              "title": "Conteúdo de documentos do Apple Business Chat",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": false
         },
         "gif": {
           "isSupported": false
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Apple Business Chat",
-            "description": "Os arquivos podem ser enviados de através da URL de um arquivo já existente.",
-            "img": {
-              "src": "mediaBusinessChat",
-              "title": "Conteúdo tipo imagem do Apple Business Chat",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Apple Business Chat",
-            "description": "Os arquivos podem ser enviados de através da URL de um arquivo já existente.",
-            "img": {
-              "src": "mediaBusinessChat",
-              "title": "Conteúdo tipo vídeo do Apple Business Chat",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": false
         },
         "menu": {
           "isSupported": false
@@ -863,72 +651,22 @@
           "isSupported": false
         },
         "native": {
-          "isSupported": true,
-          "modal": {
-            "title": "Native - Apple Business Chat",
-            "description": "Permite o envio de um conteúdo nativo de algum canal usando o formato JSON. É possível usar qualquer recurso disponível de qualquer canal, mesmo que esse conteúdo ainda não seja suportado como um tipo canônico BLiP.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo native do Apple Business Chat",
-              "alt": "Conteúdo tipo native"
-            },
-            "docsUrl": "https://docs.blip.ai/#native-content"
-          }
+          "isSupported": true
         },
         "paymentInvoice": {
-          "isSupported": true,
-          "modal": {
-            "title": "Fatura pelo Apple Pay - Apple Business Chat",
-            "description": "Mostra ao usuário uma série de informações a respeito de uma compra e uma requisição para pagamentos através do Apple Pay.",
-            "img": {
-              "src": "paymentInvoiceBusinessChat",
-              "title": "Conteúdo de Fatura do Apple Business Chat",
-              "alt": "Conteúdo de Fatura"
-            },
-            "docsUrl": "https://docs.blip.ai/#payment-invoice"
-          }
+          "isSupported": false
         },
         "paymentReceipt": {
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Apple Business Chat",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Apple Business Chat",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": false
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Apple Business Chat",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Apple Business Chat",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": false
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - Apple Business Chat",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente no aplicativo Mensagens.",
-            "img": {
-              "src": "weblinkBusinessChat",
-              "title": "Conteúdo tipo weblink do Apple Business Chat",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": false
         }
       }
     },
@@ -937,91 +675,31 @@
       "svg": "googleAssistant",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Google Assistant",
-            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
-            "img": {
-              "src": "textGoogleAssistant",
-              "title": "Tipo de conteúdo texto do Google Assistant",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
-          "isSupported": true,
-          "modal": {
-            "title": "Carrossel - Google Assistant",
-            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
-            "img": {
-              "src": "carosselGoogleAssistant",
-              "title": "Tipo de conteúdo Carrossel do Google Assistant",
-              "alt": "Tipo de conteúdo Carrossel"
-            },
-            "docsUrl": "https://docs.blip.ai/#carousel"
-          }
+          "isSupported": true
         },
         "chatState": {
           "isSupported": false
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Google Assistant",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do Google Assistant",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": false
         },
         "input": {
           "isSupported": false
         },
         "list": {
-          "isSupported": true,
-          "modal": {
-            "title": "Lista de itens - Google Assistant",
-            "description": "Envia uma lista de conteúdos de dois a trinta itens. A lista deve conter cabeçalho e cada item da mesma deve ter título único junto à possibilidade de vinculação de imagens.",
-            "img": {
-              "src": "listGoogleAssistant",
-              "title": "Tipo de conteúdo lista de itens do Google Assistant",
-              "alt": "Tipo de conteúdo lista de itens"
-            },
-            "docsUrl": "https://docs.blip.ai/#list"
-          }
+          "isSupported": false
         },
         "location": {
           "isSupported": false
         },
         "requestLocation": {
-          "isSupported": true,
-          "modal": {
-            "title": "Pedir localização - Google Assistant",
-            "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
-            "img": {
-              "src": "requestLocationGoogleAssistant",
-              "title": "Conteúdo tipo localização do Google Assistant",
-              "alt": "Conteúdo tipo localização"
-            },
-            "docsUrl": "https://docs.blip.ai/#request-location"
-          }
+          "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Google Assistant",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "audioGoogleAssistant",
-              "title": "Conteúdo tipo áudio do Google Assistant",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": true
         },
         "documents": {
           "isSupported": false
@@ -1030,17 +708,7 @@
           "isSupported": false
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Google Assistant",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "imageGoogleAssistant",
-              "title": "Conteúdo tipo imagem do Google Assistant",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": false
         },
         "video": {
           "isSupported": false
@@ -1049,30 +717,10 @@
           "isSupported": false
         },
         "quickReply": {
-          "isSupported": true,
-          "modal": {
-            "title": "Quick Reply - Google Assistant",
-            "description": "O tipo de conteúdo quick-reply permite que você apresente um conjunto predefinido de opções ao destinatário da mensagem, que aparecem com destaque logo acima da caixa de inserção de texto. Quando um usuário seleciona uma dessas opções, o conjunto é substituído por uma única mensagem de texto contendo essa mensagem selecionada.",
-            "img": {
-              "src": "quickReplyGoogleAssistant",
-              "title": "Conteúdo tipo quick reply do Google Assistant",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#quick-replies"
-          }
+          "isSupported": false
         },
         "native": {
-          "isSupported": true,
-          "modal": {
-            "title": "Native - Google Assistant",
-            "description": "Permite o envio de um conteúdo nativo de algum canal usando o formato JSON. É possível usar qualquer recurso disponível de qualquer canal, mesmo que esse conteúdo ainda não seja suportado como um tipo canônico BLiP.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo native do Google Assistant",
-              "alt": "Conteúdo tipo native"
-            },
-            "docsUrl": "https://docs.blip.ai/#native-content"
-          }
+          "isSupported": true
         },
         "paymentInvoice": {
           "isSupported": false
@@ -1081,43 +729,13 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Google Assistant",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Google Assistant",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Google Assistant",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Google Assistant",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - Google Assistant",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
-            "img": {
-              "src": "weblinkGoogleAssistant",
-              "title": "Conteúdo tipo weblink do Google Assistant",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": true
         }
       }
     },
@@ -1126,227 +744,67 @@
       "svg": "workplace",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Workplace",
-            "description": "O texto simples é a base de qualquer experiência no Workplace e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa.",
-            "img": {
-              "src": "textMessenger",
-              "title": "Tipo de conteúdo texto do Workplace",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
-          "isSupported": true,
-          "modal": {
-            "title": "Carrossel - Workplace",
-            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
-            "img": {
-              "src": "carouselMessenger",
-              "title": "Tipo de conteúdo Carrossel do Workplace",
-              "alt": "Tipo de conteúdo Carrossel"
-            },
-            "docsUrl": "https://docs.blip.ai/#carousel"
-          }
+          "isSupported": true
         },
         "chatState": {
-          "isSupported": true,
-          "modal": {
-            "title": "Digitando (Chat State) - Workplace",
-            "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
-            "img": {
-              "src": "chatStateMessenger",
-              "title": "Conteúdo tipo digitando do Workplace",
-              "alt": "Conteúdo tipo digitando"
-            },
-            "docsUrl": "https://docs.blip.ai/#chat-state"
-          }
+          "isSupported": true
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Workplace",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do Workplace",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
         },
         "input": {
           "isSupported": false
         },
         "list": {
-          "isSupported": false
+          "isSupported": true
         },
         "location": {
-          "isSupported": false
+          "isSupported": true
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Workplace",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "audioMessenger",
-              "title": "Conteúdo tipo áudio do Workplace",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": true
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Workplace",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "documentsMessenger",
-              "title": "Conteúdo de documentos do Workplace",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": true
         },
         "gif": {
-          "isSupported": true,
-          "modal": {
-            "title": "Gif - Workplace",
-            "description": "Envia uma mensagem com um conteúdo do tipo Imagem Gif.",
-            "img": {
-              "src": "gifMessenger",
-              "title": "Conteúdo de Gif do Workplace",
-              "alt": "Conteúdo de Gif"
-            },
-            "docsUrl": "https://docs.blip.ai/#gif"
-          }
+          "isSupported": true
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Workplace",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "imageMessenger",
-              "title": "Conteúdo tipo imagem do Workplace",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Workplace",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "videoMessenger",
-              "title": "Conteúdo tipo vídeo do Workplace",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": true
         },
         "menu": {
-          "isSupported": true,
-          "modal": {
-            "title": "Menu - Workplace",
-            "description": "O conteúdo menu envia uma mensagem de texto com até três botões anexados.",
-            "img": {
-              "src": "menuMessenger",
-              "title": "Conteúdo tipo menu do Workplace",
-              "alt": "Conteúdo tipo menu"
-            },
-            "docsUrl": "https://docs.blip.ai/#menu"
-          }
+          "isSupported": true
         },
         "quickReply": {
-          "isSupported": true,
-          "modal": {
-            "title": "Quick Reply - Workplace",
-            "description": "O tipo de conteúdo quick-reply permite que você apresente um conjunto predefinido de opções ao destinatário da mensagem, que aparecem com destaque logo acima da caixa de inserção de texto. Quando um usuário seleciona uma dessas opções, o conjunto é substituído por uma única mensagem de texto contendo essa mensagem selecionada.",
-            "img": {
-              "src": "quickReplyMessenger",
-              "title": "Conteúdo tipo quick reply do Workplace",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#quick-replies"
-          }
+          "isSupported": true
         },
         "native": {
-          "isSupported": true,
-          "modal": {
-            "title": "Native - Workplace",
-            "description": "Permite o envio de um conteúdo nativo de algum canal usando o formato JSON. É possível usar qualquer recurso disponível de qualquer canal, mesmo que esse conteúdo ainda não seja suportado como um tipo canônico BLiP.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo native do Workplace",
-              "alt": "Conteúdo tipo native"
-            },
-            "docsUrl": "https://docs.blip.ai/#native-content"
-          }
+          "isSupported": true
         },
         "paymentInvoice": {
           "isSupported": false
         },
         "paymentReceipt": {
-          "isSupported": true,
-          "modal": {
-            "title": "Recibo - Workplace",
-            "description": "O tipo de conteúdo de recibo permite que você envie uma confirmação de pedido por meio de uma mensagem estruturada. Este conteúdo pode conter o resumo de uma compra, detalhes do pagamento e informações de envio.",
-            "img": {
-              "src": "paymentReceiptMessenger",
-              "title": "Conteúdo tipo quick reply do Workplace",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#payment-receipt"
-          }
+          "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Workplace",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Workplace",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Workplace",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Workplace",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - Workplace",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
-            "img": {
-              "src": "weblinkMessenger",
-              "title": "Conteúdo tipo weblink do Workplace",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": true
         }
       }
     },
@@ -1355,17 +813,7 @@
       "svg": "email",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Email",
-            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
-            "img": {
-              "src": "textEmail",
-              "title": "Conteúdo tipo texto do Email",
-              "alt": "Conteúdo tipo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
           "isSupported": false
@@ -1374,17 +822,7 @@
           "isSupported": false
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Email",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do Email",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1393,98 +831,28 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": true,
-          "modal": {
-            "title": "Enviar localização - Email",
-            "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
-            "img": {
-              "src": "sendLocationEmail",
-              "title": "Conteúdo tipo localização do Email",
-              "alt": "Conteúdo tipo localização"
-            },
-            "docsUrl": "https://docs.blip.ai/#send-location"
-          }
+          "isSupported": true
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Email",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "audioEmail",
-              "title": "Conteúdo tipo áudio do Email",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": true
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Email",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "documentEmail",
-              "title": "Conteúdo de documentos do Email",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": true
         },
         "gif": {
-          "isSupported": true,
-          "modal": {
-            "title": "GIF - Email",
-            "description": "Envia uma mensagem de animação gif para o usuário.",
-            "img": {
-              "src": "gifEmail",
-              "title": "Conteúdo tipo imagem do Email",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Email",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "imageEmail",
-              "title": "Conteúdo tipo imagem do Email",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Email",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "videoEmail",
-              "title": "Conteúdo tipo vídeo do Email",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": true
         },
         "menu": {
-          "isSupported": true,
-          "modal": {
-            "title": "Menu - Email",
-            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
-            "img": {
-              "src": "menuEmail",
-              "title": "Conteúdo tipo menu do Email",
-              "alt": "Conteúdo tipo menu"
-            },
-            "docsUrl": "https://docs.blip.ai/#menu"
-          }
+          "isSupported": true
         },
         "quickReply": {
           "isSupported": false
@@ -1499,43 +867,13 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Email",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Email",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Email",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Email",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - Email",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
-            "img": {
-              "src": "weblinkEmail",
-              "title": "Conteúdo tipo weblink do Email",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": true
         }
       }
     },
@@ -1544,46 +882,16 @@
       "svg": "googleRcs",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Google RCS",
-            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
-            "img": {
-              "src": "textGoogleRcs",
-              "title": "Tipo de conteúdo texto do Google RCS",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
-          "isSupported": true,
-          "modal": {
-            "title": "Carrossel - Google RCS",
-            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título.",
-            "img": {
-              "src": "carrosselGoogleRcs",
-              "title": "Tipo de conteúdo Carrossel do Google RCS",
-              "alt": "Tipo de conteúdo Carrossel"
-            },
-            "docsUrl": "https://docs.blip.ai/#carousel"
-          }
+          "isSupported": true
         },
         "chatState": {
-          "isSupported": false
+          "isSupported": true
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Google RCS",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do BLiP Chat",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1592,104 +900,34 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": false
+          "isSupported": true
         },
         "requestLocation": {
-          "isSupported": true,
-          "modal": {
-            "title": "Pedir localização - Google RCS",
-            "description": "Envia uma mensagem com um pedido de compartilhamento da localização do usuário.",
-            "img": {
-              "src": "requestLocationGoogleRcs",
-              "title": "Conteúdo tipo localização do Google RCS",
-              "alt": "Conteúdo tipo localização"
-            },
-            "docsUrl": "https://docs.blip.ai/#request-location"
-          }
+          "isSupported": true
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Google RCS",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "mediaGoogleRcs",
-              "title": "Conteúdo tipo áudio do Google RCS",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": true
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Google RCS",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "mediaGoogleRcs",
-              "title": "Conteúdo de documentos do Google RCS",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": true
         },
         "gif": {
           "isSupported": false
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Google RCS",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "mediaGoogleRcs",
-              "title": "Conteúdo tipo imagem do Google RCS",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Google RCS",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "mediaGoogleRcs",
-              "title": "Conteúdo tipo vídeo do Google RCS",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": true
         },
         "menu": {
-          "isSupported": true,
-          "modal": {
-            "title": "Menu - Google RCS",
-            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
-            "img": {
-              "src": "menuBlipChat",
-              "title": "Conteúdo tipo menu do Google RCS",
-              "alt": "Conteúdo tipo menu"
-            },
-            "docsUrl": "https://docs.blip.ai/#menu"
-          }
+          "isSupported": true
         },
         "quickReply": {
-          "isSupported": true,
-          "modal": {
-            "title": "Quick Reply - Google RCS",
-            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
-            "img": {
-              "src": "quickReplyBlipChat",
-              "title": "Conteúdo tipo quick reply do Google RCS",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#quick-replies"
-          }
+          "isSupported": true
         },
         "native": {
-          "isSupported": false
+          "isSupported": true
         },
         "paymentInvoice": {
           "isSupported": false
@@ -1698,52 +936,22 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Google RCS",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Google RCS",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Google RCS",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Google RCS",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": false
+          "isSupported": true
         }
       }
     },
-    "infoBip": {
-      "name": "Infobip",
-      "svg": "infoBip",
+    "instagram": {
+      "name": "Instagram",
+      "svg": "instagram",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Infobip",
-            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
-            "img": {
-              "src": "textInfobip",
-              "title": "Tipo de conteúdo texto do Infobip",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
           "isSupported": false
@@ -1752,17 +960,7 @@
           "isSupported": false
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Google RCS",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do BLiP Chat",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": false
         },
         "input": {
           "isSupported": false
@@ -1777,75 +975,25 @@
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Infobip",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "textInfobip",
-              "title": "Conteúdo tipo áudio do Infobip",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": false
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Infobip",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "textInfobip",
-              "title": "Conteúdo de documentos do Infobip",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": false
         },
         "gif": {
-          "isSupported": true,
-          "modal": {
-            "title": "GIF - Infobip",
-            "description": "Envia uma mensagem de animação gif para o usuário.",
-            "img": {
-              "src": "textInfobip",
-              "title": "Conteúdo tipo imagem do Infobip",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": false
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Infobip",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "textInfobip",
-              "title": "Conteúdo tipo imagem do Infobip",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Infobip",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "textInfobip",
-              "title": "Conteúdo tipo vídeo do Infobip",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": true
         },
         "menu": {
           "isSupported": false
         },
         "quickReply": {
-          "isSupported": false
+          "isSupported": true
         },
         "native": {
           "isSupported": false
@@ -1857,33 +1005,13 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Infobip",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Infobip",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": false
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Infobip",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Infobip",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": false
         },
         "weblink": {
-          "isSupported": false
+          "isSupported": true
         }
       }
     },
@@ -1892,46 +1020,16 @@
       "svg": "telegram",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Telegram",
-            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
-            "img": {
-              "src": "textTelegram",
-              "title": "Tipo de conteúdo texto do Telegram",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
-          "isSupported": false
+          "isSupported": true
         },
         "chatState": {
-          "isSupported": true,
-          "modal": {
-            "title": "Digitando (Chat State) - Telegram",
-            "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
-            "img": {
-              "src": "chatStateTelegram",
-              "title": "Conteúdo tipo digitando do Telegram",
-              "alt": "Conteúdo tipo digitando"
-            },
-            "docsUrl": "https://docs.blip.ai/#chat-state"
-          }
+          "isSupported": true
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Telegram",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do Telegram",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -1940,101 +1038,31 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": true,
-          "modal": {
-            "title": "Enviar localização - Telegram",
-            "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
-            "img": {
-              "src": "locationTelegram",
-              "title": "Conteúdo tipo localização do Telegram",
-              "alt": "Conteúdo tipo localização"
-            },
-            "docsUrl": "https://docs.blip.ai/#send-location"
-          }
+          "isSupported": true
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Telegram",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "audioTelegram",
-              "title": "Conteúdo tipo áudio do Telegram",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": true
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Telegram",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "documentsTelegram",
-              "title": "Conteúdo de documentos do Telegram",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": true
         },
         "gif": {
-          "isSupported": false
+          "isSupported": true
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Telegram",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "imageTelegram",
-              "title": "Conteúdo tipo imagem do Telegram",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Telegram",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "videoTelegram",
-              "title": "Conteúdo tipo vídeo do Telegram",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": true
         },
         "menu": {
-          "isSupported": true,
-          "modal": {
-            "title": "Menu - Telegram",
-            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário.",
-            "img": {
-              "src": "menuTelegram",
-              "title": "Conteúdo tipo menu do Telegram",
-              "alt": "Conteúdo tipo menu"
-            },
-            "docsUrl": "https://docs.blip.ai/#menu"
-          }
+          "isSupported": true
         },
         "quickReply": {
-          "isSupported": true,
-          "modal": {
-            "title": "Quick Reply - Telegram",
-            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário.",
-            "img": {
-              "src": "quickReplyTelegram",
-              "title": "Conteúdo tipo quick reply do Telegram",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#quick-replies"
-          }
+          "isSupported": true
         },
         "native": {
           "isSupported": false
@@ -2046,43 +1074,13 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Telegram",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Telegram",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": true,
-          "modal": {
-            "title": "Sensitive - Telegram",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Telegram, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Telegram",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - Telegram",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
-            "img": {
-              "src": "weblinkTelegram",
-              "title": "Conteúdo tipo weblink do Telegram",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": true
         }
       }
     },
@@ -2091,56 +1089,16 @@
       "svg": "microsoftTeams",
       "support": {
         "text": {
-          "isSupported": true,
-          "modal": {
-            "title": "Texto - Microsoft Teams",
-            "description": "O texto simples é a forma mais prática e comum para se criar uma experiência conversacional.",
-            "img": {
-              "src": "textMicrosoftTeams",
-              "title": "Tipo de conteúdo texto do Microsoft Teams",
-              "alt": "Tipo de conteúdo texto"
-            },
-            "docsUrl": "https://docs.blip.ai/#plain-text"
-          }
+          "isSupported": true
         },
         "carousel": {
-          "isSupported": true,
-          "modal": {
-            "title": "Carrossel - Microsoft Teams",
-            "description": "Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título. ",
-            "img": {
-              "src": "carrouselMicrosoftTeams",
-              "title": "Tipo de conteúdo Carrossel do Microsoft Teams",
-              "alt": "Tipo de conteúdo Carrossel"
-            },
-            "docsUrl": "https://docs.blip.ai/#carousel"
-          }
+          "isSupported": true
         },
         "chatState": {
-          "isSupported": true,
-          "modal": {
-            "title": "Digitando (Chat State) - Microsoft Teams",
-            "description": "Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. ",
-            "img": {
-              "src": "chatStateMicrosoftTeams",
-              "title": "Conteúdo tipo digitando do Microsoft Teams",
-              "alt": "Conteúdo tipo digitando"
-            },
-            "docsUrl": "https://docs.blip.ai/#chat-state"
-          }
+          "isSupported": true
         },
         "collection": {
-          "isSupported": true,
-          "modal": {
-            "title": "Collection - Microsoft Teams",
-            "description": "Envia vários conteúdos do mesmo tipo em uma única mensagem. Alguns canais suportam esse tipo de agregação com layouts especiais.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo Collection do Microsoft Teams",
-              "alt": "Conteúdo tipo Collection"
-            },
-            "docsUrl": "https://docs.blip.ai/#collection"
-          }
+          "isSupported": true
         },
         "input": {
           "isSupported": false
@@ -2149,101 +1107,31 @@
           "isSupported": false
         },
         "location": {
-          "isSupported": false,
-          "modal": {
-            "title": "Enviar localização - Microsoft Teams",
-            "description": "Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário.",
-            "img": {
-              "src": "locationTelegram",
-              "title": "Conteúdo tipo localização do Microsoft Teams",
-              "alt": "Conteúdo tipo localização"
-            },
-            "docsUrl": "https://docs.blip.ai/#send-location"
-          }
+          "isSupported": true
         },
         "requestLocation": {
           "isSupported": false
         },
         "audio": {
-          "isSupported": true,
-          "modal": {
-            "title": "Áudio - Microsoft Teams",
-            "description": "Envia uma mensagem com conteúdo do tipo áudio para o usuário.",
-            "img": {
-              "src": "audioMicrosoftTeams",
-              "title": "Conteúdo tipo áudio do Microsoft Teams",
-              "alt": "Conteúdo tipo áudio"
-            },
-            "docsUrl": "https://docs.blip.ai/#audio"
-          }
+          "isSupported": true
         },
         "documents": {
-          "isSupported": true,
-          "modal": {
-            "title": "Documentos - Microsoft Teams",
-            "description": "Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo.",
-            "img": {
-              "src": "documentsMicrosoftTeams",
-              "title": "Conteúdo de documentos do Microsoft Teams",
-              "alt": "Conteúdo de documentos"
-            },
-            "docsUrl": "https://docs.blip.ai/#document-files"
-          }
+          "isSupported": true
         },
         "gif": {
           "isSupported": false
         },
         "image": {
-          "isSupported": true,
-          "modal": {
-            "title": "Imagem - Microsoft Teams",
-            "description": "Envia uma mensagem de imagem para o usuário.",
-            "img": {
-              "src": "imageMicrosoftTeams",
-              "title": "Conteúdo tipo imagem do Microsoft Teams",
-              "alt": "Conteúdo tipo imagem"
-            },
-            "docsUrl": "https://docs.blip.ai/#images"
-          }
+          "isSupported": true
         },
         "video": {
-          "isSupported": true,
-          "modal": {
-            "title": "Vídeo - Microsoft Teams",
-            "description": "Envia uma mensagem com conteúdo do tipo vídeo para o usuário.",
-            "img": {
-              "src": "videoMicrosoftTeams",
-              "title": "Conteúdo tipo vídeo do Microsoft Teams",
-              "alt": "Conteúdo tipo vídeo"
-            },
-            "docsUrl": "https://docs.blip.ai/#video"
-          }
+          "isSupported": true
         },
         "menu": {
-          "isSupported": true,
-          "modal": {
-            "title": "Menu - Microsoft Teams",
-            "description": "Envia uma mensagem com conteúdo do tipo menu para o usuário, neste Canal as opções do menu são apresentadas horizontalmente.",
-            "img": {
-              "src": "menuMicrosoftTeams",
-              "title": "Conteúdo tipo menu do Microsoft Teams",
-              "alt": "Conteúdo tipo menu"
-            },
-            "docsUrl": "https://docs.blip.ai/#menu"
-          }
+          "isSupported": true
         },
         "quickReply": {
-          "isSupported": true,
-          "modal": {
-            "title": "Quick Reply - Microsoft Teams",
-            "description": "Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário. Neste canal, este tipo de conteúdo não desaparece após clique de opção.",
-            "img": {
-              "src": "quickReplyMicrosoftTeams",
-              "title": "Conteúdo tipo quick reply do Microsoft Teams",
-              "alt": "Conteúdo tipo quick reply"
-            },
-            "docsUrl": "https://docs.blip.ai/#quick-replies"
-          }
+          "isSupported": true
         },
         "native": {
           "isSupported": false
@@ -2255,43 +1143,13 @@
           "isSupported": false
         },
         "resource": {
-          "isSupported": true,
-          "modal": {
-            "title": "Resource - Microsoft Teams",
-            "description": "Envia uma mensagem em que o conteúdo é um recurso armazenado no servidor. O recurso deve ser armazenado através da extensão de recursos. O servidor substitui automaticamente o conteúdo pelo recurso armazenado, caso a chave do recurso já exista no chatbot do chamador. O recurso pode conter variáveis ​​que podem ser substituídas por valores especificados durante o tempo de envio, por meio da propriedade de variáveis.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo resource do Microsoft Teams",
-              "alt": "Conteúdo tipo resource"
-            },
-            "docsUrl": "https://docs.blip.ai/#resource"
-          }
+          "isSupported": true
         },
         "sensitive": {
-          "isSupported": false,
-          "modal": {
-            "title": "Sensitive - Microsoft Teams",
-            "description": "Esconde um conteúdo de mensagem para sinalizar que as informações são confidenciais ou sensíveis. Nesse caso, o servidor não armazenará o conteúdo da mensagem em nenhum momento. O conteúdo agrupado pode ser de qualquer tipo BLiP disponível.\n            Nota importante: Isso é restrito aos servidores BLiP. Canais externos (Messenger, Microsoft Teams, etc.) ainda podem armazenar suas informações de alguma forma.",
-            "img": {
-              "src": "",
-              "title": "Conteúdo tipo sensitive do Microsoft Teams",
-              "alt": "Conteúdo tipo sensitive"
-            },
-            "docsUrl": "https://docs.blip.ai/#sensitive-information"
-          }
+          "isSupported": true
         },
         "weblink": {
-          "isSupported": true,
-          "modal": {
-            "title": "Weblink - Microsoft Teams",
-            "description": "Permite o envio de um link para uma página na web, permitindo que a mesma seja aberta diretamente na aplicação.",
-            "img": {
-              "src": "weblinkMicrosoftTeams",
-              "title": "Conteúdo tipo weblink do Microsoft Teams",
-              "alt": "Conteúdo tipo weblink"
-            },
-            "docsUrl": "https://docs.blip.ai/#web-link"
-          }
+          "isSupported": true
         }
       }
     }
