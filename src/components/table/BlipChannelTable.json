@@ -369,7 +369,7 @@
           "isSupported": true
         },
         "menu": {
-          "isSupported": true
+          "isSupported": false
         },
         "quickReply": {
           "isSupported": true
