@@ -43,51 +43,51 @@ table {
     th,
     td {
       font-weight: $bp-fw-bold;
-      padding-right: 0.8 * $m;
-      padding-left: 0.8 * $m;
+      padding-right: 0.5 * $m;
+      padding-left: 0.5 * $m;
     }
   }
   @media only screen and (min-width: 790px) and (max-width: 989px) {
     th,
     td {
-      padding-right: 1.2 * $m;
-      padding-left: 1.2 * $m;
+      padding-right: 0.5 * $m;
+      padding-left: 0.5 * $m;
     }
   }
   @media only screen and (min-width: 990px) and (max-width: 1074px) {
     th,
     td {
-      padding-right: 1.4 * $m;
-      padding-left: 1.4 * $m;
+      padding-right: 0.7 * $m;
+      padding-left: 0.7 * $m;
     }
   }
   @media only screen and (min-width: 1075px) and (max-width: 1199px) {
+    th,
+    td {
+      padding-right: 1.1 * $m;
+      padding-left: 1.1 * $m;
+    }
+  }
+  @media only screen and (min-width: 1199px) and (max-width: 1349px) {
     th,
     td {
       padding-right: 1.8 * $m;
       padding-left: 1.8 * $m;
     }
   }
-  @media only screen and (min-width: 1199px) and (max-width: 1349px) {
-    th,
-    td {
-      padding-right: 2.5 * $m;
-      padding-left: 2.5 * $m;
-    }
-  }
   @media only screen and (min-width: 1350px) and (max-width: 1499px) {
     th,
     td {
-      padding-right: 3 * $m;
-      padding-left: 3 * $m;
+      padding-right: 2.3 * $m;
+      padding-left: 2.3 * $m;
     }
   }
 
   @media only screen and (min-width: 1500px) {
     th,
     td {
-      padding-right: 3.7 * $m;
-      padding-left: 3.7 * $m;
+      padding-right: 2.7 * $m;
+      padding-left: 2.7 * $m;
     }
   }
   .first-column-head {
