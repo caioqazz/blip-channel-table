@@ -653,7 +653,7 @@
           "isSupported": false
         },
         "weblink": {
-          "isSupported": true
+          "isSupported": false
         },
         "emoji": {
           "isSupported": true
