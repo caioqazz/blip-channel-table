@@ -83,6 +83,10 @@
     "weblink": {
       "name": "Web Link",
       "description": "Allows sending of a link for a webpage to the client including metadata, such as link's title, description and a miniature image"
+    },
+    "stickers":{
+      "name": "Figurinhas",
+      "description": "Allows sending stickers"
     }
   },
   "contentCapabilityPerChannel": {
@@ -153,7 +157,7 @@
         "weblink": {
           "isSupported": false
         },
-        "emoji": {
+        "stickers": {
           "isSupported": false
         }
       }
@@ -225,8 +229,8 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
-          "isSupported": true
+        "stickers": {
+          "isSupported": false
         }
       }
     },
@@ -294,8 +298,8 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
-          "isSupported": true
+        "stickers": {
+          "isSupported": false
         }
       }
     },
@@ -366,7 +370,7 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
+        "stickers": {
           "isSupported": false
         }
       }
@@ -438,7 +442,7 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
+        "stickers": {
           "isSupported": false
         }
       }
@@ -510,7 +514,7 @@
         "weblink": {
           "isSupported": false
         },
-        "emoji": {
+        "stickers": {
           "isSupported": false
         }
       }
@@ -583,7 +587,7 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
+        "stickers": {
           "isSupported": false
         }
       }
@@ -655,8 +659,8 @@
         "weblink": {
           "isSupported": false
         },
-        "emoji": {
-          "isSupported": true
+        "stickers": {
+          "isSupported": false
         }
       }
     },
@@ -727,8 +731,8 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
-          "isSupported": true
+        "stickers": {
+          "isSupported": false
         }
       }
     },
@@ -799,7 +803,7 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
+        "stickers": {
           "isSupported": false
         }
       }
@@ -871,8 +875,8 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
-          "isSupported": true
+        "stickers": {
+          "isSupported": false
         }
       }
     },
@@ -943,8 +947,8 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
-          "isSupported": true
+        "stickers": {
+          "isSupported": false
         }
       }
     },
@@ -1015,7 +1019,7 @@
         "weblink": {
           "isSupported": true
         },
-        "emoji": {
+        "stickers": {
           "isSupported": true
         }
       }
