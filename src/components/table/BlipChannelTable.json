@@ -987,7 +987,7 @@
           "isSupported": true
         },
         "gif": {
-          "isSupported": true
+          "isSupported": false
         },
         "image": {
           "isSupported": true
