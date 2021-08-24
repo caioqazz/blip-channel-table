@@ -630,7 +630,7 @@
           "isSupported": false
         },
         "image": {
-          "isSupported": false
+          "isSupported": true
         },
         "video": {
           "isSupported": false
@@ -639,7 +639,7 @@
           "isSupported": false
         },
         "quickReply": {
-          "isSupported": false
+          "isSupported": true
         },
         "native": {
           "isSupported": false
