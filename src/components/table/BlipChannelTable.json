@@ -40,6 +40,10 @@
       "name": "Envio de localização",
       "description": "Allows sending and receiving of geographic information"
     },
+    "markdown": {
+      "name": "Markdown",
+      "description": "Allows formatting text using Markdown syntax"
+    },
     "menu": {
       "name": "Menu",
       "description": "Description"
@@ -84,7 +88,7 @@
       "name": "Web Link",
       "description": "Allows sending of a link for a webpage to the client including metadata, such as link's title, description and a miniature image"
     },
-    "stickers":{
+    "stickers": {
       "name": "Figurinhas",
       "description": "Allows sending stickers"
     }
@@ -131,6 +135,9 @@
           "isSupported": true
         },
         "video": {
+          "isSupported": false
+        },
+        "markdown": {
           "isSupported": false
         },
         "menu": {
@@ -205,6 +212,9 @@
         "video": {
           "isSupported": true
         },
+        "markdown": {
+          "isSupported": false
+        },
         "menu": {
           "isSupported": false
         },
@@ -272,6 +282,9 @@
           "isSupported": true
         },
         "video": {
+          "isSupported": true
+        },
+        "markdown": {
           "isSupported": true
         },
         "menu": {
@@ -346,6 +359,9 @@
         "video": {
           "isSupported": true
         },
+        "markdown": {
+          "isSupported": false
+        },
         "menu": {
           "isSupported": true
         },
@@ -416,6 +432,9 @@
           "isSupported": false
         },
         "video": {
+          "isSupported": false
+        },
+        "markdown": {
           "isSupported": false
         },
         "menu": {
@@ -490,6 +509,9 @@
         "video": {
           "isSupported": false
         },
+        "markdown": {
+          "isSupported": true
+        },
         "menu": {
           "isSupported": false
         },
@@ -563,6 +585,9 @@
         "video": {
           "isSupported": true
         },
+        "markdown": {
+          "isSupported": false
+        },
         "menu": {
           "isSupported": true
         },
@@ -633,6 +658,9 @@
           "isSupported": true
         },
         "video": {
+          "isSupported": false
+        },
+        "markdown": {
           "isSupported": false
         },
         "menu": {
@@ -707,6 +735,9 @@
         "video": {
           "isSupported": true
         },
+        "markdown": {
+          "isSupported": true
+        },
         "menu": {
           "isSupported": true
         },
@@ -777,6 +808,9 @@
           "isSupported": true
         },
         "video": {
+          "isSupported": true
+        },
+        "markdown": {
           "isSupported": true
         },
         "menu": {
@@ -851,6 +885,9 @@
         "video": {
           "isSupported": true
         },
+        "markdown": {
+          "isSupported": true
+        },
         "menu": {
           "isSupported": true
         },
@@ -923,6 +960,9 @@
         "video": {
           "isSupported": true
         },
+        "markdown": {
+          "isSupported": true
+        },
         "menu": {
           "isSupported": true
         },
@@ -993,6 +1033,9 @@
           "isSupported": true
         },
         "video": {
+          "isSupported": true
+        },
+        "markdown": {
           "isSupported": true
         },
         "menu": {
