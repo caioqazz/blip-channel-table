@@ -850,7 +850,7 @@
           "isSupported": true
         },
         "carousel": {
-          "isSupported": true
+          "isSupported": false
         },
         "chatState": {
           "isSupported": true
