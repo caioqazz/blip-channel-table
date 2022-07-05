@@ -94,9 +94,87 @@
     }
   },
   "contentCapabilityPerChannel": {
-    "alexa": {
-      "name": "Alexa",
-      "svg": "alexa",
+    "whatsApp": {
+      "name": "WhatsApp",
+      "svg": "whatsApp",
+      "support": {
+        "text": {
+          "isSupported": true
+        },
+        "carousel": {
+          "isSupported": false
+        },
+        "chatState": {
+          "isSupported": false
+        },
+        "collection": {
+          "isSupported": true
+        },
+        "input": {
+          "isSupported": true
+        },
+        "list": {
+          "isSupported": false
+        },
+        "location": {
+          "isSupported": true
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": true
+        },
+        "documents": {
+          "isSupported": true
+        },
+        "emoji":{
+          "isSupported":true
+        },
+        "gif": {
+          "isSupported": false
+        },
+        "image": {
+          "isSupported": true
+        },
+        "video": {
+          "isSupported": true
+        },
+        "markdown": {
+          "isSupported": true
+        },
+        "menu": {
+          "isSupported": false
+        },
+        "quickReply": {
+          "isSupported": true
+        },
+        "native": {
+          "isSupported": false
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": true
+        },
+        "sensitive": {
+          "isSupported": true
+        },
+        "weblink": {
+          "isSupported": true
+        },
+        "stickers": {
+          "isSupported": true
+        }
+      }
+    },
+    "instagram": {
+      "name": "Instagram",
+      "svg": "instagram",
       "support": {
         "text": {
           "isSupported": true
@@ -128,6 +206,9 @@
         "documents": {
           "isSupported": false
         },
+        "emoji":{
+          "isSupported": true
+        },
         "gif": {
           "isSupported": false
         },
@@ -141,13 +222,13 @@
           "isSupported": false
         },
         "menu": {
-          "isSupported": false
+          "isSupported": true
         },
         "quickReply": {
-          "isSupported": false
+          "isSupported": true
         },
         "native": {
-          "isSupported": true
+          "isSupported": false
         },
         "paymentInvoice": {
           "isSupported": false
@@ -170,7 +251,7 @@
       }
     },
     "appleBusinessChat": {
-      "name": "Apple Business Chat",
+      "name": "Apple Messages",
       "svg": "appleBusinessChat",
       "support": {
         "text": {
@@ -203,6 +284,9 @@
         "documents": {
           "isSupported": true
         },
+        "emoji":{
+          "isSupported":true
+        },
         "gif": {
           "isSupported": false
         },
@@ -244,8 +328,86 @@
         }
       }
     },
+    "googleBusinessChat": {
+      "name": "Google Business Messages",
+      "svg": "googleBusiness",
+      "support": {
+        "text": {
+          "isSupported": true
+        },
+        "carousel": {
+          "isSupported": true
+        },
+        "chatState": {
+          "isSupported": false
+        },
+        "collection": {
+          "isSupported": false
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": false
+        },
+        "location": {
+          "isSupported": false
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": false
+        },
+        "documents": {
+          "isSupported": false
+        },
+        "emoji":{
+          "isSupported": true
+        },
+        "gif": {
+          "isSupported": false
+        },
+        "image": {
+          "isSupported": true
+        },
+        "video": {
+          "isSupported": false
+        },
+        "markdown": {
+          "isSupported": true
+        },
+        "menu": {
+          "isSupported": true
+        },
+        "quickReply": {
+          "isSupported": true
+        },
+        "native": {
+          "isSupported": false
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": false
+        },
+        "sensitive": {
+          "isSupported": true
+        },
+        "weblink": {
+          "isSupported": false
+        },
+        "stickers": {
+          "isSupported": false
+        }
+      }
+    },
     "blipChat": {
-      "name": "BLiP Chat",
+      "name": "Blip Chat",
       "svg": "blipChat",
       "support": {
         "text": {
@@ -310,382 +472,6 @@
         },
         "weblink": {
           "isSupported": true
-        },
-        "stickers": {
-          "isSupported": false
-        }
-      }
-    },
-    "email": {
-      "name": "Email",
-      "svg": "email",
-      "support": {
-        "text": {
-          "isSupported": true
-        },
-        "carousel": {
-          "isSupported": false
-        },
-        "chatState": {
-          "isSupported": false
-        },
-        "collection": {
-          "isSupported": true
-        },
-        "input": {
-          "isSupported": false
-        },
-        "list": {
-          "isSupported": false
-        },
-        "location": {
-          "isSupported": true
-        },
-        "requestLocation": {
-          "isSupported": false
-        },
-        "audio": {
-          "isSupported": true
-        },
-        "documents": {
-          "isSupported": true
-        },
-        "gif": {
-          "isSupported": true
-        },
-        "image": {
-          "isSupported": true
-        },
-        "video": {
-          "isSupported": true
-        },
-        "markdown": {
-          "isSupported": false
-        },
-        "menu": {
-          "isSupported": true
-        },
-        "quickReply": {
-          "isSupported": false
-        },
-        "native": {
-          "isSupported": false
-        },
-        "paymentInvoice": {
-          "isSupported": false
-        },
-        "paymentReceipt": {
-          "isSupported": false
-        },
-        "resource": {
-          "isSupported": true
-        },
-        "sensitive": {
-          "isSupported": true
-        },
-        "weblink": {
-          "isSupported": true
-        },
-        "stickers": {
-          "isSupported": false
-        }
-      }
-    },
-    "googleAssistant": {
-      "name": "Google Assistant",
-      "svg": "googleAssistant",
-      "support": {
-        "text": {
-          "isSupported": true
-        },
-        "carousel": {
-          "isSupported": true
-        },
-        "chatState": {
-          "isSupported": false
-        },
-        "collection": {
-          "isSupported": false
-        },
-        "input": {
-          "isSupported": false
-        },
-        "list": {
-          "isSupported": false
-        },
-        "location": {
-          "isSupported": false
-        },
-        "requestLocation": {
-          "isSupported": false
-        },
-        "audio": {
-          "isSupported": true
-        },
-        "documents": {
-          "isSupported": false
-        },
-        "gif": {
-          "isSupported": false
-        },
-        "image": {
-          "isSupported": false
-        },
-        "video": {
-          "isSupported": false
-        },
-        "markdown": {
-          "isSupported": false
-        },
-        "menu": {
-          "isSupported": false
-        },
-        "quickReply": {
-          "isSupported": false
-        },
-        "native": {
-          "isSupported": true
-        },
-        "paymentInvoice": {
-          "isSupported": false
-        },
-        "paymentReceipt": {
-          "isSupported": false
-        },
-        "resource": {
-          "isSupported": true
-        },
-        "sensitive": {
-          "isSupported": true
-        },
-        "weblink": {
-          "isSupported": true
-        },
-        "stickers": {
-          "isSupported": false
-        }
-      }
-    },
-    "googleBusinessChat": {
-      "name": "Google Business Chat",
-      "svg": "googleBusiness",
-      "support": {
-        "text": {
-          "isSupported": true
-        },
-        "carousel": {
-          "isSupported": true
-        },
-        "chatState": {
-          "isSupported": false
-        },
-        "collection": {
-          "isSupported": false
-        },
-        "input": {
-          "isSupported": false
-        },
-        "list": {
-          "isSupported": false
-        },
-        "location": {
-          "isSupported": false
-        },
-        "requestLocation": {
-          "isSupported": false
-        },
-        "audio": {
-          "isSupported": false
-        },
-        "documents": {
-          "isSupported": false
-        },
-        "gif": {
-          "isSupported": false
-        },
-        "image": {
-          "isSupported": true
-        },
-        "video": {
-          "isSupported": false
-        },
-        "markdown": {
-          "isSupported": true
-        },
-        "menu": {
-          "isSupported": false
-        },
-        "quickReply": {
-          "isSupported": true
-        },
-        "native": {
-          "isSupported": false
-        },
-        "paymentInvoice": {
-          "isSupported": false
-        },
-        "paymentReceipt": {
-          "isSupported": false
-        },
-        "resource": {
-          "isSupported": false
-        },
-        "sensitive": {
-          "isSupported": true
-        },
-        "weblink": {
-          "isSupported": false
-        },
-        "stickers": {
-          "isSupported": false
-        }
-      }
-    },
-
-    "googleRcs": {
-      "name": "Google RCS",
-      "svg": "googleRcs",
-      "support": {
-        "text": {
-          "isSupported": true
-        },
-        "carousel": {
-          "isSupported": true
-        },
-        "chatState": {
-          "isSupported": true
-        },
-        "collection": {
-          "isSupported": true
-        },
-        "input": {
-          "isSupported": false
-        },
-        "list": {
-          "isSupported": false
-        },
-        "location": {
-          "isSupported": true
-        },
-        "requestLocation": {
-          "isSupported": true
-        },
-        "audio": {
-          "isSupported": true
-        },
-        "documents": {
-          "isSupported": true
-        },
-        "gif": {
-          "isSupported": false
-        },
-        "image": {
-          "isSupported": true
-        },
-        "video": {
-          "isSupported": true
-        },
-        "markdown": {
-          "isSupported": false
-        },
-        "menu": {
-          "isSupported": true
-        },
-        "quickReply": {
-          "isSupported": true
-        },
-        "native": {
-          "isSupported": true
-        },
-        "paymentInvoice": {
-          "isSupported": false
-        },
-        "paymentReceipt": {
-          "isSupported": false
-        },
-        "resource": {
-          "isSupported": true
-        },
-        "sensitive": {
-          "isSupported": true
-        },
-        "weblink": {
-          "isSupported": true
-        },
-        "stickers": {
-          "isSupported": false
-        }
-      }
-    },
-    "instagram": {
-      "name": "Instagram",
-      "svg": "instagram",
-      "support": {
-        "text": {
-          "isSupported": true
-        },
-        "carousel": {
-          "isSupported": false
-        },
-        "chatState": {
-          "isSupported": false
-        },
-        "collection": {
-          "isSupported": false
-        },
-        "input": {
-          "isSupported": false
-        },
-        "list": {
-          "isSupported": false
-        },
-        "location": {
-          "isSupported": false
-        },
-        "requestLocation": {
-          "isSupported": false
-        },
-        "audio": {
-          "isSupported": false
-        },
-        "documents": {
-          "isSupported": false
-        },
-        "gif": {
-          "isSupported": false
-        },
-        "image": {
-          "isSupported": true
-        },
-        "video": {
-          "isSupported": false
-        },
-        "markdown": {
-          "isSupported": false
-        },
-        "menu": {
-          "isSupported": false
-        },
-        "quickReply": {
-          "isSupported": true
-        },
-        "native": {
-          "isSupported": false
-        },
-        "paymentInvoice": {
-          "isSupported": false
-        },
-        "paymentReceipt": {
-          "isSupported": false
-        },
-        "resource": {
-          "isSupported": false
-        },
-        "sensitive": {
-          "isSupported": false
-        },
-        "weblink": {
-          "isSupported": false
         },
         "stickers": {
           "isSupported": false
@@ -767,81 +553,6 @@
         }
       }
     },
-    "microsoftTeams": {
-      "name": "Microsoft Teams",
-      "svg": "microsoftTeams",
-      "support": {
-        "text": {
-          "isSupported": true
-        },
-        "carousel": {
-          "isSupported": true
-        },
-        "chatState": {
-          "isSupported": true
-        },
-        "collection": {
-          "isSupported": true
-        },
-        "input": {
-          "isSupported": false
-        },
-        "list": {
-          "isSupported": false
-        },
-        "location": {
-          "isSupported": true
-        },
-        "requestLocation": {
-          "isSupported": false
-        },
-        "audio": {
-          "isSupported": true
-        },
-        "documents": {
-          "isSupported": true
-        },
-        "gif": {
-          "isSupported": false
-        },
-        "image": {
-          "isSupported": true
-        },
-        "video": {
-          "isSupported": true
-        },
-        "markdown": {
-          "isSupported": true
-        },
-        "menu": {
-          "isSupported": true
-        },
-        "quickReply": {
-          "isSupported": true
-        },
-        "native": {
-          "isSupported": false
-        },
-        "paymentInvoice": {
-          "isSupported": false
-        },
-        "paymentReceipt": {
-          "isSupported": false
-        },
-        "resource": {
-          "isSupported": true
-        },
-        "sensitive": {
-          "isSupported": true
-        },
-        "weblink": {
-          "isSupported": true
-        },
-        "stickers": {
-          "isSupported": false
-        }
-      }
-    },
     "telegram ": {
       "name": "Telegram",
       "svg": "telegram",
@@ -850,7 +561,7 @@
           "isSupported": true
         },
         "carousel": {
-          "isSupported": false
+          "isSupported": true
         },
         "chatState": {
           "isSupported": true
@@ -992,24 +703,24 @@
         }
       }
     },
-    "whatsApp": {
-      "name": "WhatsApp",
-      "svg": "whatsApp",
+    "microsoftTeams": {
+      "name": "Microsoft Teams",
+      "svg": "microsoftTeams",
       "support": {
         "text": {
           "isSupported": true
         },
         "carousel": {
-          "isSupported": false
+          "isSupported": true
         },
         "chatState": {
-          "isSupported": false
+          "isSupported": true
         },
         "collection": {
           "isSupported": true
         },
         "input": {
-          "isSupported": true
+          "isSupported": false
         },
         "list": {
           "isSupported": false
@@ -1039,7 +750,7 @@
           "isSupported": true
         },
         "menu": {
-          "isSupported": false
+          "isSupported": true
         },
         "quickReply": {
           "isSupported": true
@@ -1063,7 +774,307 @@
           "isSupported": true
         },
         "stickers": {
+          "isSupported": false
+        }
+      }
+    },
+    "googleRcs": {
+      "name": "Google RCS",
+      "svg": "googleRcs",
+      "support": {
+        "text": {
           "isSupported": true
+        },
+        "carousel": {
+          "isSupported": true
+        },
+        "chatState": {
+          "isSupported": true
+        },
+        "collection": {
+          "isSupported": true
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": false
+        },
+        "location": {
+          "isSupported": true
+        },
+        "requestLocation": {
+          "isSupported": true
+        },
+        "audio": {
+          "isSupported": true
+        },
+        "documents": {
+          "isSupported": true
+        },
+        "gif": {
+          "isSupported": false
+        },
+        "image": {
+          "isSupported": true
+        },
+        "video": {
+          "isSupported": true
+        },
+        "markdown": {
+          "isSupported": false
+        },
+        "menu": {
+          "isSupported": true
+        },
+        "quickReply": {
+          "isSupported": true
+        },
+        "native": {
+          "isSupported": true
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": true
+        },
+        "sensitive": {
+          "isSupported": true
+        },
+        "weblink": {
+          "isSupported": true
+        },
+        "stickers": {
+          "isSupported": false
+        }
+      }
+    },
+    "googleAssistant": {
+      "name": "Google Assistant",
+      "svg": "googleAssistant",
+      "support": {
+        "text": {
+          "isSupported": true
+        },
+        "carousel": {
+          "isSupported": false
+        },
+        "chatState": {
+          "isSupported": false
+        },
+        "collection": {
+          "isSupported": false
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": false
+        },
+        "location": {
+          "isSupported": false
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": true
+        },
+        "documents": {
+          "isSupported": false
+        },
+        "gif": {
+          "isSupported": false
+        },
+        "image": {
+          "isSupported": false
+        },
+        "video": {
+          "isSupported": false
+        },
+        "markdown": {
+          "isSupported": false
+        },
+        "menu": {
+          "isSupported": false
+        },
+        "quickReply": {
+          "isSupported": false
+        },
+        "native": {
+          "isSupported": true
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": true
+        },
+        "sensitive": {
+          "isSupported": true
+        },
+        "weblink": {
+          "isSupported": true
+        },
+        "stickers": {
+          "isSupported": false
+        }
+      }
+    },
+    "alexa": {
+      "name": "Alexa",
+      "svg": "alexa",
+      "support": {
+        "text": {
+          "isSupported": true
+        },
+        "carousel": {
+          "isSupported": false
+        },
+        "chatState": {
+          "isSupported": false
+        },
+        "collection": {
+          "isSupported": false
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": false
+        },
+        "location": {
+          "isSupported": false
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": true
+        },
+        "documents": {
+          "isSupported": false
+        },
+        "gif": {
+          "isSupported": false
+        },
+        "image": {
+          "isSupported": true
+        },
+        "video": {
+          "isSupported": false
+        },
+        "markdown": {
+          "isSupported": false
+        },
+        "menu": {
+          "isSupported": false
+        },
+        "quickReply": {
+          "isSupported": false
+        },
+        "native": {
+          "isSupported": true
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": false
+        },
+        "sensitive": {
+          "isSupported": false
+        },
+        "weblink": {
+          "isSupported": false
+        },
+        "stickers": {
+          "isSupported": false
+        }
+      }
+    },
+    "email": {
+      "name": "Email",
+      "svg": "email",
+      "support": {
+        "text": {
+          "isSupported": true
+        },
+        "carousel": {
+          "isSupported": false
+        },
+        "chatState": {
+          "isSupported": false
+        },
+        "collection": {
+          "isSupported": true
+        },
+        "input": {
+          "isSupported": false
+        },
+        "list": {
+          "isSupported": false
+        },
+        "location": {
+          "isSupported": true
+        },
+        "requestLocation": {
+          "isSupported": false
+        },
+        "audio": {
+          "isSupported": true
+        },
+        "documents": {
+          "isSupported": true
+        },
+        "gif": {
+          "isSupported": true
+        },
+        "image": {
+          "isSupported": true
+        },
+        "video": {
+          "isSupported": true
+        },
+        "markdown": {
+          "isSupported": false
+        },
+        "menu": {
+          "isSupported": true
+        },
+        "quickReply": {
+          "isSupported": false
+        },
+        "native": {
+          "isSupported": false
+        },
+        "paymentInvoice": {
+          "isSupported": false
+        },
+        "paymentReceipt": {
+          "isSupported": false
+        },
+        "resource": {
+          "isSupported": true
+        },
+        "sensitive": {
+          "isSupported": true
+        },
+        "weblink": {
+          "isSupported": true
+        },
+        "stickers": {
+          "isSupported": false
         }
       }
     }

@@ -4,9 +4,24 @@ table {
   border-radius: 8px;
   overflow: hidden;
   
-  .channel-icon {
+  .divInnerTable{
     width: 4 * $m;
-    height: 4 * $m;
+    height: 9 * $m;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .channel-icon {
+    width: 3 * $m;
+    height: 3 * $m;
+  }
+
+  .channelTitle{
+    height: 3 * $m;
+    font-size: 14px;
+    margin-top: 10px;
   }
 
   .channel-support__symbols {
@@ -14,5 +29,42 @@ table {
     i, label {
       vertical-align: middle;
     }
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .channelTitle{
+    display: none;
+  }
+}
+@media only screen and (min-width: 790px) and (max-width: 989px) {
+  .channelTitle{
+    display: none;
+  }
+}
+@media only screen and (min-width: 990px) and (max-width: 1074px) {
+  .channelTitle{
+    display: none;
+  }
+}
+@media only screen and (min-width: 1075px) and (max-width: 1199px) {
+  .channelTitle{
+    display: none;
+  }
+}
+@media only screen and (min-width: 1199px) and (max-width: 1349px) {
+  .channelTitle{
+    display: none;
+  }
+}
+@media only screen and (min-width: 1350px) and (max-width: 1499px) {
+  .channelTitle{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .channelTitle{
+    display: block;
   }
 }
