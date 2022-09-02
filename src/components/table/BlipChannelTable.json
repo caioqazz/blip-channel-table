@@ -180,7 +180,7 @@
           "isSupported": true
         },
         "carousel": {
-          "isSupported": false
+          "isSupported": true
         },
         "chatState": {
           "isSupported": false
